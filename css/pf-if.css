@@ -1,0 +1,13 @@
+/* GC WEB TEMPLATE | MODELE DE PAGE WEB DU GC
+TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+*/
+@media print {
+	body {background: #FFF;}
+	abbr, acronym {border-bottom: none;} 
+	div#cn-cols {clear: none;}
+	div#cn-skip-head, div#cn-left-col, div#cn-left-col-gap, div#cn-right-col, div#cn-right-col-gap, div#cn-centre-col-gap {display: none;}
+	div#cn-centre-col {position: static; width: 100%; float: none;}
+	div#cn-body-inner-3col div#cn-centre-col-inner, div#cn-body-inner-2col div#cn-centre-col-inner {margin: 0; padding: 0; border: none; position: static;}
+	div#cn-centre-col-inner {border-top: 3px outset #666; padding-top: 20px;}
+}
