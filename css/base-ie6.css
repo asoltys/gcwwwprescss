@@ -1,0 +1,18 @@
+/* GC WEB TEMPLATE | MODELE DE PAGE WEB DU GC
+TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+*/
+div#cn-skip-head a {width: auto;}
+div#cn-skip-head li {padding-bottom: 5px;}
+div#cn-skip-head a:link, div#cn-skip-head a:visited {filter: alpha(opacity = 0); zoom: 1;}
+div#cn-skip-head a:hover, div#cn-skip-head a:focus, div#cn-skip-head a:active {filter: alpha(opacity = 100); zoom: 1;}
+
+div#cn-body-inner-3col fieldset {width: 97%;}
+div#cn-body-inner-1col div#cn-foot {margin-top: -0.21em;}
+div#cn-centre-col-inner {padding-bottom: 1px;}
+div#cn-left-col-gap, div#cn-centre-col-gap, div#cn-right-col-gap {height: 1000em;}
+div#cn-right-col-gap {right: 3%;}
+div#cn-left-col a, div#cn-right-col a { height: 1%; }
+
+div#cn-foot-inner {position: absolute;}
+
