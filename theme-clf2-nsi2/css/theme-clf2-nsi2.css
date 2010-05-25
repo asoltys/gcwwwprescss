@@ -1,0 +1,90 @@
+/* GC WEB TEMPLATE | MODELE DE PAGE WEB DU GC
+TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+*/
+div#cn-body-inner-3col, div#cn-body-inner-2col, div#cn-body-inner-1col {margin: 0 auto; width: 760px; min-width: 12.00em;}
+
+/****************** EXPANDABLE PAGE CLIENT-SIDE-CSS (IE6-SPECIFIC CSS IN THEME-CLF2-NSI2-IE6.CSS) | LE CSS DE COTE CLIENT POUR UNE PAGE EXTENSIBLE (LE CSS POUR IE6 SE TROUVE DANS THEME-CLF2-NSI2-IE6.CSS) **********************/
+/*div#cn-body-inner-3col, div#cn-body-inner-2col, div#cn-body-inner-1col {padding: 0; width: auto;}*/
+
+div#cn-left-col, div#cn-left-col-gap {width: 150px;}
+div#cn-left-col {margin-right: -150px;}
+div#cn-right-col, div#cn-right-col-gap {width: 195px;}
+
+/* 3 COLUMN | 3 COLONNE */
+div#cn-body-inner-3col div#cn-centre-col-inner {margin-left: 150px; margin-right: 195px;}
+
+/* 2 COLUMN | 2 COLONNE */
+div#cn-body-inner-2col div#cn-centre-col-inner {margin-left: 150px; padding-left: 10px;}
+
+/* Hide hidden heading elements */
+div#cn-bcrumb h2, div#cn-cmb h2, div#cn-in-pd h3 {position: absolute; left: -9000px; font-size: 10%;}
+
+div#cn-skip-head a:hover, div#cn-skip-head a:focus, div#cn-skip-head a:active {background-color: #363;}
+div#cn-head {float: left;}
+div#cn-sig {float: left; width: 50%; min-width: 300px;}
+div#cn-wmms {float: right; text-align: right; width: 49.8%; min-width: 100px;}
+
+div#cn-leaf {position: relative; z-index: 2; float: left; text-align: center; width: 100%; min-width: 70px; height: 70px; background-image: url('../images/lffl.png'); background-repeat: no-repeat; background-position: top center;}
+div#cn-banner, div#cn-banner-eng, div#cn-banner-fra {float: left; width: 100%; margin-top: -35px; padding-bottom: 10px; text-align: center; background-color: #363;}
+div#cn-banner p#cn-banner-text, div#cn-banner-eng p#cn-banner-text, div#cn-banner-fra p#cn-banner-text {width: 100%; margin: 0; padding: 30px 0 3px 0; color: #FFF; font-weight: bold; font-size: 180%; font-family: "times new roman", serif;}
+div#cn-banner p, div#cn-banner-eng p, div#cn-banner-fra p {width: 100%; margin: 0; padding: 0 0 4px 0; color: #FFF; font-size: 120%; font-family: Arial, Helvetica, sans-serif;}
+
+div#cn-cmb, div#cn-cmb ul li {background-color: #000;}
+div#cn-cmb {width: 100%; float: left;}
+div#cn-cmb ul {list-style-type: none; margin: 0; padding-left: 0; height: 1.57em;}
+div#cn-cmb ul li {float: left; width: 16.5%; min-width: 9.5em; height: 1.51em;}
+div#cn-cmb ul li a {display: block; text-align: left; width: 100%; padding: 0.16em 0px 0.16em 3px; border-left: 1px solid #FFF; white-space: nowrap; font-weight: bold;}
+div#cn-cmb ul li:first-child a {border-left: none;}
+div#cn-cmb ul li a:link, div#cn-cmb ul li a:visited {background-color: #000; color: #FFF; text-decoration: none;}
+div#cn-cmb ul li a:hover, div#cn-cmb ul li a:active, div#cn-cmb ul li a:focus {color: #000; background-color: #CCC;}
+div#cn-cmb a.cn-linkdesc:hover span span, div#cn-cmb a.cn-linkdesc:focus span span, div#cn-cmb a.cn-linkdesc:active span span {top: 1.9em;}
+
+div#cn-bcrumb ol {padding-top: 0; line-height: 1.57em; margin: 0; padding-left: 0; list-style-type: none; float: left; width: 100%; clear: right;}
+div#cn-bcrumb li {margin-top: 0; padding-top: 0; float: left; margin-right: 0.3em; white-space: nowrap;}
+
+div#cn-left-col, div#cn-left-col-gap {background-color: #CC9;}
+div#cn-left-col h3 {padding: 2px 5px; background-color: #363; color: #FFF; margin-top: 0; margin-bottom: 0; font-size: 110%;}
+div#cn-left-col div#cn-search-box {margin: 5px 0 0 10px;}
+div#cn-left-col div#cn-search-box input#cn-search {border: 1px solid #363; margin-right: 5px; width: 92%;}
+div#cn-left-col div#cn-search-box input#cn-search-submit {background-color: #363; color: #FFF; font-weight: bold;}
+div#cn-left-col div#cn-search-box a {margin-left: -10px;}
+div#cn-left-col li {border-top: 1px solid #363;}
+div#cn-left-col li:first-child {border: none;}
+h3#cn-pd-link {position: absolute; left: -9000px; font-size: 10%;}
+ul#cn-pd-ul {border-top: 15px solid #363; margin-left: 0; padding-lefT: 40px;}
+
+div#cn-left-col a, div#cn-right-col a {display: block; padding: 3px 5px 3px 10px;}
+div#cn-left-col a:link, div#cn-right-col a:link {color: #000; text-decoration: none;}
+div#cn-left-col a:visited, div#cn-right-col a:visited {color: #636; text-decoration: none;}
+div#cn-left-col a:hover, div#cn-left-col a:focus, div#cn-left-col a:active, div#cn-right-col a:hover, div#cn-right-col a:focus, div#cn-right-col a:active {color: #CC9; background-color: #030; outline: none;}
+div#cn-left-col ul, div#cn-right-col ul {list-style-type: none; margin-top: 0; margin-bottom: 0;}
+div#cn-left-col ul ul, div#cn-right-col ul ul {list-style-type: disc;}
+div#cn-left-col li, div#cn-right-col li {margin-left: -40px;}
+div#cn-left-col li li, div#cn-right-col li li {margin-left: 0; padding: 0; border: none;}
+div#cn-left-col li li a, div#cn-right-col li li a {padding: 1px 5px 1px 5px; margin-left: -5px;}
+
+div#cn-right-col h3 {padding: 2px 5px; background-color: #363; color: #FFF; margin-top: 0; margin-bottom: 0; font-size: 110%;}
+div#cn-right-col h3 + div {border: 1px solid #000; padding-left: 8px; padding-right: 5px; margin-bottom: 10px;}
+div#cn-right-col h3 + div ul a {margin-left: -8px; margin-right: -5px; padding-left: 8px;}
+div#cn-right-col ul {margin-bottom: 5px;}
+div#cn-right-col ul ul {margin-bottom: 0px;}
+div#cn-right-col li {margin-left: -40px;}
+div#cn-right-col li a img {margin-top: -3px; margin-left: -10px;}
+
+div#cn-body-inner-3col div#cn-centre-col, div#cn-body-inner-2col div#cn-centre-col {clear: left;}
+div#cn-centre-col-inner h1 {margin-top: 0;}
+
+div#cn-foot {border-top: 15px solid #363; height: 3em;}
+
+div#cn-in-pd ul {list-style-type: none; margin: -2px 0 0 -40px;}
+div#cn-in-pd dl#cn-doc-dates, div#cn-in-pd div#cn-topPage-foot, div#cn-in-pd div#cn-in-pd-links {margin: 10px 0; width: 33%;}
+div#cn-in-pd dl#cn-doc-dates {float: left; clear: left; min-width: 6em; margin-top: 5px; padding: 3px;}
+div#cn-in-pd dl#cn-doc-dates dt {padding-right: 0.3em; float: left;}
+div#cn-in-pd dl#cn-doc-dates dd {margin-left: 0px;}
+div#cn-in-pd dl#cn-doc-dates dd span {white-space: nowrap;}
+div#cn-in-pd div#cn-topPage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
+div#cn-in-pd div#cn-in-pd-links {float: right; text-align: right; min-width: 4em;}
+
+div.cn-topPage, div#cn-topPage-foot {text-align: center; padding-top: 13px; background-image: url('../images/tphp.gif'); background-repeat: no-repeat; background-position: top center;}
+div.cn-topPage {float: right;}
