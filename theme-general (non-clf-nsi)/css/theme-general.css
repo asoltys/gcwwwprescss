@@ -69,5 +69,5 @@ div#cn-in-pd div#cn-sig {float: left; clear: left; min-width: 205px; }
 div#cn-in-pd div#cn-topPage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
 div#cn-in-pd div#cn-in-pd-links {float: right; text-align: right; min-width: 4em;}
 
-div.cn-topPage, div#cn-topPage-foot {text-align: center; padding-top: 13px; background-image: url('../images/tphp.gif'); background-repeat: no-repeat; background-position: top center;}
+div.cn-topPage, div#cn-topPage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
 div.cn-topPage {float: right;}
