@@ -25,7 +25,7 @@ div#cn-head {float: left;}
 div#cn-sig {float: left; width: 50%; min-width: 300px;}
 div#cn-wmms {float: right; text-align: right; width: 49.8%; min-width: 100px;}
 
-div#cn-leaf {position: relative; z-index: 2; float: left; text-align: center; width: 100%; min-width: 70px; height: 70px; background-image: url('../images/lffl.png'); background-repeat: no-repeat; background-position: top center;}
+div#cn-leaf {position: relative; z-index: 2; float: left; text-align: center; width: 100%; min-width: 70px; height: 70px; background-image: url(../images/lffl.png); background-repeat: no-repeat; background-position: top center;}
 div#cn-banner, div#cn-banner-eng, div#cn-banner-fra {float: left; width: 100%; margin-top: -35px; padding-bottom: 10px; text-align: center; background-color: #363;}
 div#cn-banner p#cn-banner-text, div#cn-banner-eng p#cn-banner-text, div#cn-banner-fra p#cn-banner-text {width: 100%; margin: 0; padding: 30px 0 3px 0; color: #FFF; font-weight: bold; font-size: 180%; font-family: "times new roman", serif;}
 div#cn-banner p, div#cn-banner-eng p, div#cn-banner-fra p {width: 100%; margin: 0; padding: 0 0 4px 0; color: #FFF; font-size: 120%; font-family: Arial, Helvetica, sans-serif;}
@@ -86,5 +86,5 @@ div#cn-in-pd dl#cn-doc-dates dd span {white-space: nowrap;}
 div#cn-in-pd div#cn-topPage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
 div#cn-in-pd div#cn-in-pd-links {float: right; text-align: right; min-width: 4em;}
 
-div.cn-topPage, div#cn-topPage-foot {text-align: center; padding-top: 13px; background-image: url('../images/tphp.gif'); background-repeat: no-repeat; background-position: top center;}
+div.cn-topPage, div#cn-topPage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
 div.cn-topPage {float: right;}
