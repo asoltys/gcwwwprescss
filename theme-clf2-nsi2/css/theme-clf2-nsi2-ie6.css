@@ -28,4 +28,4 @@ div#cn-right-col-inner div p {margin-top: 1em; margin-bottom: 1em;}
 
 div#cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; margin-left: -10px;}
 div#cn-in-pd {border-top: 16px solid #363;}
-div.cn-topPage {padding-right: 0.2em;}
+div.cn-toppage, div.cn-topPage {padding-right: 0.2em;}

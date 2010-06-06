@@ -12,5 +12,5 @@ div#cn-cmb ul li {width: 23%;}
 div#cn-cmb ul li#cn-cmb1 a {border: none;}
 div#cn-cmb ul li#cn-cmb4 {width: 23%;}
 div#cn-in-pd {height: 50px;}
-div#cn-in-pd div#cn-sig, div#cn-in-pd div#cn-topPage-foot, div#cn-in-pd div#cn-in-pd-links {position: absolute; width: 100%;}
-div#cn-in-pd div#cn-topPage-foot {left: 0;}
+div#cn-in-pd div#cn-sig, div#cn-toppage-foot, div#cn-topPage-foot, div#cn-in-pd-links {position: absolute; width: 100%;}
+div#cn-toppage-foot, div#cn-topPage-foot {left: 0;}

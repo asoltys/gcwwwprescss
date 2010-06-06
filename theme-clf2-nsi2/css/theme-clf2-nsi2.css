@@ -78,13 +78,13 @@ div#cn-centre-col-inner h1 {margin-top: 0;}
 div#cn-foot {border-top: 15px solid #363; height: 3em;}
 
 div#cn-in-pd ul {list-style-type: none; margin: -2px 0 0 -40px;}
-div#cn-in-pd dl#cn-doc-dates, div#cn-in-pd div#cn-topPage-foot, div#cn-in-pd div#cn-in-pd-links {margin: 10px 0; width: 33%;}
-div#cn-in-pd dl#cn-doc-dates {float: left; clear: left; min-width: 6em; margin-top: 5px; padding: 3px;}
-div#cn-in-pd dl#cn-doc-dates dt {padding-right: 0.3em; float: left;}
-div#cn-in-pd dl#cn-doc-dates dd {margin-left: 0px;}
-div#cn-in-pd dl#cn-doc-dates dd span {white-space: nowrap;}
-div#cn-in-pd div#cn-topPage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
-div#cn-in-pd div#cn-in-pd-links {float: right; text-align: right; min-width: 4em;}
+dl#cn-doc-dates, div#cn-toppage-foot, div#cn-topPage-foot, div#cn-in-pd-links {margin: 10px 0; width: 33%;}
+dl#cn-doc-dates {float: left; clear: left; min-width: 6em; margin-top: 5px; padding: 3px;}
+dl#cn-doc-dates dt {padding-right: 0.3em; float: left;}
+dl#cn-doc-dates dd {margin-left: 0px;}
+dl#cn-doc-dates dd span {white-space: nowrap;}
+div#cn-toppage-foot, div#cn-topPage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
+div#cn-in-pd-links {float: right; text-align: right; min-width: 4em;}
 
-div.cn-topPage, div#cn-topPage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
-div.cn-topPage {float: right;}
+div.cn-toppage, div.cn-topPage, div#cn-toppage-foot, div#cn-topPage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
+div.cn-toppage, div.cn-topPage {float: right;}
