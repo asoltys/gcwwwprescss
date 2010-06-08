@@ -27,7 +27,7 @@ body {width: auto;}
 #cn-right-col-inner div {border: 1px solid #000; padding-left: 5px; padding-right: 5px; margin-bottom: 10px;}
 #cn-right-col-inner div div {border: none; padding-left: 0; padding-right: 0;}
 #cn-right-col-inner div p {margin-top: 1em; margin-bottom: 1em;}
-#cn-right-col-gap {right: 2.9%;
+#cn-right-col-gap {right: 2.9%;}
 
 #cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; margin-left: -10px;}
 #cn-foot-inner {position: absolute;}
