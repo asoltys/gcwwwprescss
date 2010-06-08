@@ -2,30 +2,34 @@
 TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
-div#cn-body-inner-3col, div#cn-body-inner-2col, div#cn-body-inner-1col {width: auto;}
+#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {width: auto;}
 body {margin: 0 auto; width: 760px;}
 
 /****************** EXPANDABLE PAGE CSS | LE CSS POUR UNE PAGE EXTENSIBLE **********************/
-/*body {width: auto;}*/
+/*
+body {width: auto;}
+#cn-right-col-gap {right: 8% !important;}
+*/
 
-div#cn-head {margin-top: -10px; padding-top: 10px;}
-div#cn-sig, div#cn-wmms{width: 45%;}
-div#cn-leaf {background-image: url('../images/lffl.gif');}
-div#cn-cmb {margin-bottom: -6px;}
-div#cn-cmb ul li {width: 15.3%;}
-div#cn-cmb ul li#cn-cmb1 a {border: none;}
-div#cn-bcrumb ol {margin-top: -2px; margin-bottom: 5px;}
+#cn-head {margin-top: -10px; padding-top: 10px;}
+#cn-sig, #cn-wmms{width: 45%;}
+#cn-leaf {background-image: url('../images/lffl.gif');}
+#cn-cmb {margin-bottom: -6px;}
+#cn-cmb ul li {width: 15.3%;}
+#cn-cmb #cn-cmb1 a {border: none;}
+#cn-bcrumb ol {margin-top: -2px; margin-bottom: 5px;}
 
-div#cn-cols {float: none; width: auto;}
-div#cn-left-col-gap {padding-right: 2px;}
-div#cn-left-col h3 {width: 94.9%;}
-div#cn-left-col li a {width: 91.5%;}
-div#cn-left-col li li a {width: 96.4%;}
-div#cn-left-col div#cn-search-box {margin: -15px 0 0 10px;}
-div#cn-right-col-inner div {border: 1px solid #000; padding-left: 5px; padding-right: 5px; margin-bottom: 10px;}
-div#cn-right-col-inner div div {border: none; padding-left: 0; padding-right: 0;}
-div#cn-right-col-inner div p {margin-top: 1em; margin-bottom: 1em;}
+#cn-left-col-gap {padding-right: 2px; left: -2px;}
+#cn-left-col h3 {width: 94.9%;}
+#cn-left-col li a {width: 91.5%;}
+#cn-left-col li li a {width: 96.4%;}
+#cn-left-col #cn-search-box {margin: -15px 0 0 10px;}
+#cn-right-col-inner div {border: 1px solid #000; padding-left: 5px; padding-right: 5px; margin-bottom: 10px;}
+#cn-right-col-inner div div {border: none; padding-left: 0; padding-right: 0;}
+#cn-right-col-inner div p {margin-top: 1em; margin-bottom: 1em;}
+#cn-right-col-gap {right: 2.9%;
 
-div#cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; margin-left: -10px;}
-div#cn-in-pd {border-top: 16px solid #363;}
-div.cn-toppage, div.cn-topPage {padding-right: 0.2em;}
+#cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; margin-left: -10px;}
+#cn-foot-inner {position: absolute;}
+#cn-in-pd {border-top: 16px solid #363;}
+.cn-toppage, .cn-topPage {padding-right: 0.2em;}

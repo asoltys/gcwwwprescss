@@ -2,15 +2,15 @@
 TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
-div#cn-head {background: #FF9;}
-div#cn-foot {background: #CCC;}
-div#cn-head-inner, div#cn-foot-inner, div#cn-left-col-inner, div#cn-right-col-inner {padding: 5px 10px;}
+#cn-head {background: #FF9;}
+#cn-foot {background: #CCC;}
+#cn-head-inner, #cn-foot-inner, #cn-left-col-inner, #cn-right-col-inner {padding: 5px 10px;}
 
-div#cn-left-col, div#cn-left-col-gap {background: #CC9;} 
-div#cn-right-col, div#cn-right-col-gap {background: #99F;}
+#cn-left-col, #cn-left-col-gap {background: #CC9;} 
+#cn-right-col, #cn-right-col-gap {background: #99F;}
 
-div#cn-centre-col, div#cn-centre-col-gap {background: #9C9;}
-div#cn-body-inner-1col div#cn-centre-col-inner {padding: 0 10px;}
+#cn-centre-col, #cn-centre-col-gap {background: #9C9;}
+#cn-body-inner-1col #cn-centre-col-inner {padding: 0 10px;}
 dl dd {margin-left: 0px;}
 dl dd ul {margin-top: 0;}
 

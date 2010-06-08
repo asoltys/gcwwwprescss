@@ -2,17 +2,17 @@
 TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
-ul#cn-lang-links {margin-left: 0;}
-div#cn-cmb ul {height: auto;}
-div#cn-bcrumb ol {margin: 1px 0 3px 0; clear: left;}
-div#cn-bcrumb li {padding-bottom: 3px;}
+#cn-lang-links {margin-left: 0;}
+#cn-cmb ul {height: auto;}
+#cn-bcrumb ol {margin: 1px 0 3px 0; clear: left;}
+#cn-bcrumb li {padding-bottom: 3px;}
 
-div#cn-left-col div#cn-search-box {margin-top: -15px;}
-div#cn-left-col div#cn-search-box a {margin-bottom: -19px;}
-div#cn-right-col h3 + div p {margin-top: 1em; margin-bottom: 1em;}
+#cn-left-col #cn-search-box {margin-top: -15px;}
+#cn-left-col #cn-search-box a {margin-bottom: -19px;}
+#cn-right-col h3 + div p {margin-top: 1em; margin-bottom: 1em;}
 
-div#cn-cmb ul {height: auto; overflow: hidden;}
-div#cn-cmb ul li {width: 24.9%;}
-div#cn-cmb ul li#cn-cmb4 {width: 25%;}
-div#cn-in-pd div#cn-sig, div#cn-toppage-foot, div#cn-topPage-foot, div#cn-in-pd-links {width: 29%;}
-div#cn-toppage-foot, div#cn-topPage-foot {left: 60px;}
+#cn-cmb ul {height: auto; overflow: hidden;}
+#cn-cmb ul li {width: 24.9%;}
+#cn-cmb #cn-cmb4 {width: 25%;}
+#cn-in-pd #cn-sig, #cn-toppage-foot, #cn-topPage-foot, #cn-in-pd-links {width: 29%;}
+#cn-toppage-foot, #cn-topPage-foot {left: 60px;}

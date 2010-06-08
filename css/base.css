@@ -23,44 +23,44 @@ h5 {font-size: 120%;}
 h6 {font-size: 110%;}
 
 /* HIDE NON-VISUAL NAVIGATION ELEMENTS | CACHER LES ELEMENTS DE NAVIGATION NON-VISUEL */
-div#cn-left-col h2, div#cn-right-col h2, div#cn-foot h2 {position: absolute; left: -9000px; font-size: 10%;}
+#cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; left: -9000px; font-size: 10%;}
 
 /* SKIP HEADER | SAUT DE L'EN-TETE */
-div#cn-skip-head {height: 0; float: left;}
-div#cn-skip-head ul {list-style-type: none;}
-div#cn-skip-head li {position: absolute; top: 0; width: auto; z-index: 3;}
-div#cn-skip-head li#cn-sh-link-1 {right: 53%;}
-div#cn-skip-head li#cn-sh-link-2 {left: 53%;}
-div#cn-skip-head a {padding: 5px; display: block; width: 100%;}
-div#cn-skip-head a, div#cn-skip-head a:link, div#cn-skip-head a:visited {opacity: 0; color: #FFF; font-weight: bold;}
-div#cn-skip-head a:hover, div#cn-skip-head a:focus, div#cn-skip-head a:active {opacity: 1; background-color: #000; text-decoration: none; color: #FFF;}
+#cn-skip-head {height: 0; float: left;}
+#cn-skip-head ul {list-style-type: none;}
+#cn-skip-head li {position: absolute; top: 0; width: auto; z-index: 3;}
+#cn-skip-head #cn-sh-link-1 {right: 53%;}
+#cn-skip-head #cn-sh-link-2 {left: 53%;}
+#cn-skip-head a {padding: 5px; display: block; width: 100%;}
+#cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited {opacity: 0; color: #FFF; font-weight: bold;}
+#cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {opacity: 1; background-color: #000; text-decoration: none; color: #FFF;}
 
 /* BASIC GRID | GRILLE SIMPLE */
-div#cn-cols {clear: both; float: left; width: 100%;}
-div#cn-body-inner-3col, div#cn-body-inner-2col, div#cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative;}
-div#cn-head, div#cn-foot, div#cn-left-col, div#cn-right-col {position: relative; z-index: 2;}
-div#cn-centre-col, div#cn-left-col-gap, div#cn-right-col-gap {position: relative; z-index: 1;}
-div#cn-left-col-gap, div#cn-right-col-gap, div#cn-centre-col-gap {position: absolute; top: 0; bottom: 0;}
+#cn-cols {clear: both; float: left; width: 100%;}
+#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative;}
+#cn-head, #cn-foot, #cn-left-col, #cn-right-col {position: relative; z-index: 2;}
+#cn-centre-col, #cn-left-col-gap, #cn-right-col-gap {position: relative; z-index: 1;}
+#cn-left-col-gap, #cn-right-col-gap, #cn-centre-col-gap {position: absolute; top: 0; bottom: 0;}
 
-div#cn-head, div#cn-foot {width: 100%; clear: both; background: #FFF;}
+#cn-head, #cn-foot {width: 100%; clear: both; background: #FFF;}
 
-div#cn-left-col, div#cn-left-col-gap {width: 25%; background: #FFF;}
-div#cn-left-col {float: left; margin-right: -25%;}
-div#cn-left-col-gap {left: 0;}
+#cn-left-col, #cn-left-col-gap {width: 25%; background: #FFF;}
+#cn-left-col {float: left; margin-right: -25%;}
+#cn-left-col-gap {left: 0;}
 
-div#cn-right-col, div#cn-right-col-gap {width: 25%; background: #FFF;}
-div#cn-right-col {float: right;}
-div#cn-right-col-gap {right: 0;}
+#cn-right-col, #cn-right-col-gap {width: 25%; background: #FFF;}
+#cn-right-col {float: right;}
+#cn-right-col-gap {right: 0;}
 
-div#cn-centre-col, div#cn-centre-col-gap {float: left; width: 100%; background: #FFF;}
+#cn-centre-col, #cn-centre-col-gap {float: left; width: 100%; background: #FFF;}
 
 /* 3 COLUMN | 3 COLONNE */
-div#cn-body-inner-3col div#cn-centre-col {margin-right: -100%;}
-div#cn-body-inner-3col div#cn-centre-col-inner {margin-left: 25%; margin-right: 25%; padding-left: 10px; padding-right: 10px;}
+#cn-body-inner-3col #cn-centre-col {margin-right: -100%;}
+#cn-body-inner-3col #cn-centre-col-inner {margin-left: 25%; margin-right: 25%; padding-left: 10px; padding-right: 10px;}
 
 /* 2 COLUMN | 2 COLONNE */
-div#cn-body-inner-2col div#cn-centre-col {margin-right: -100%;}
-div#cn-body-inner-2col div#cn-centre-col-inner {margin-left: 25%; padding-left: 10px;}
+#cn-body-inner-2col #cn-centre-col {margin-right: -100%;}
+#cn-body-inner-2col #cn-centre-col-inner {margin-left: 25%; padding-left: 10px;}
 
 /* LINK DESCRIPTION | DESCRIPTON DE LIEN */
 a.cn-linkdesc {position: relative; z-index: 24; overflow: hidden;}

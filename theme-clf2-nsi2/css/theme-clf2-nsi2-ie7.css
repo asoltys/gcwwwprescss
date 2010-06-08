@@ -2,19 +2,19 @@
 TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
-div#cn-skip-head {float: none;}
-div#cn-skip-head li#cn-sh-link-1 {right: 51%;}
-div#cn-skip-head li#cn-sh-link-2 {left: 51%;}
+#cn-skip-head {float: none;}
+#cn-skip-head #cn-sh-link-1 {right: 51%;}
+#cn-skip-head #cn-sh-link-2 {left: 51%;}
 
-div#cn-head {float: none;}
-div#cn-cmb ul {height: auto; overflow: hidden;}
-div#cn-cmb ul li {width: 16.6%; padding-bottom: 1px;}
-div#cn-bcrumb ol {margin: 1px 0 3px 0; clear: left; line-height: 1.25em;}
-div#cn-bcrumb li {padding-bottom: 3px;}
+#cn-head {float: none;}
+#cn-cmb ul {height: auto; overflow: hidden;}
+#cn-cmb ul li {width: 16.6%; padding-bottom: 1px;}
+#cn-bcrumb ol {margin: 1px 0 3px 0; clear: left; line-height: 1.25em;}
+#cn-bcrumb li {padding-bottom: 3px;}
 
-div#cn-left-col div#cn-search-box {margin-top: -15px;}
-div#cn-left-col div#cn-search-box a {margin-bottom: -19px;}
-div#cn-right-col h3 + div p {margin-top: 1em; margin-bottom: 1em;}
-div#cn-centre-col-inner {margin-bottom: 1em;}
+#cn-left-col #cn-search-box {margin-top: -15px;}
+#cn-left-col #cn-search-box a {margin-bottom: -19px;}
+#cn-right-col h3 + div p {margin-top: 1em; margin-bottom: 1em;}
+#cn-centre-col-inner {margin-bottom: 1em;}
 
-div#cn-in-pd div#cn-sig, div#cn-toppage-foot, div#cn-topPage-foot, div#cn-in-pd-links {width: 28%;}
+#cn-in-pd #cn-sig, #cn-toppage-foot, #cn-topPage-foot, #cn-in-pd-links {width: 28%;}

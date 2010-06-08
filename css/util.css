@@ -22,7 +22,7 @@ CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 .fontSize125 {font-size: 125%;}
 .h5Size, .fontSize120 {font-size: 120%;}
 .fontSize115  {font-size: 115%;}
-.h6Size, .fontSize110, h1.headline, h2.headline, h3.headline, h4.headline, h5.headline, h6.headline {font-size: 110%;}
+.h6Size, .fontSize110, .headline {font-size: 110%;}
 .fontSize105 {font-size: 105%;}
 .fontSize100 {font-size: 100%;}
 .fontSize95 {font-size: 95%;}
@@ -32,8 +32,8 @@ CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 .smallFont, .fontSize75 {font-size: 75%;}
 .fontSize70 {font-size: 70%;}
 
-div.navaid, p.navaid, h1.navaid, h2.navaid, .navaid {height: 1px; width: 1px; overflow: hidden; float: right; font-size: 0; position: absolute; top:auto; left: -10000px;}
-div.navaid a, p.navaid a, h1.navaid a, h2.navaid a, .navaid a {color: #FFFFFF;}
+.navaid {height: 1px; width: 1px; overflow: hidden; float: right; font-size: 0; position: absolute; top:auto; left: -10000px;}
+.navaid a {color: #FFFFFF;}
 
 .widthFull {width: 98.5%;}
 .width95 {width: 95%;}
@@ -112,6 +112,5 @@ ol.upper-roman {list-style-type: upper-roman;}
 .greenBG {background-color: #093;}
 .lightgreyBG {background-color: #CCC;}
 .deepyellowBG {background-color: #FC3;}
-div.highlight, p.highlight {border: 1px solid #030; background-color: #9F9; padding: 5px;}
-div.center div.wrapContainer {float: left; width: 99.5%;}
-div.left div.wrapContainer, div.right div.wrapContainer {float: left; width: 100%;}
+.highlight {border: 1px solid #030; background-color: #9F9; padding: 5px;}
+.wrapContainer {float: left; width: 100%;}
