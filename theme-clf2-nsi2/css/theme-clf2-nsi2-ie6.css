@@ -13,7 +13,7 @@ body {width: auto;}
 
 #cn-head {margin-top: -10px; padding-top: 10px;}
 #cn-sig, #cn-wmms{width: 45%;}
-#cn-leaf {background-image: url('../images/lffl.gif');}
+#cn-leaf {background-image: url(../images/lffl.gif);}
 #cn-cmb {margin-bottom: -6px;}
 #cn-cmb ul li {width: 15.3%;}
 #cn-cmb #cn-cmb1 a {border: none;}
