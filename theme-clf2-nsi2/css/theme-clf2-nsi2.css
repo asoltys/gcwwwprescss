@@ -52,7 +52,7 @@ CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 #cn-left-col li {border-top: 1px solid #363;}
 #cn-left-col li:first-child {border: none;}
 #cn-pd-link {position: absolute; left: -9000px; font-size: 10%;}
-#cn-pd-ul {border-top: 15px solid #363; margin-left: 0; padding-lefT: 40px;}
+#cn-pd-ul {border-top: 15px solid #363; margin-left: 0; padding-left: 40px;}
 
 #cn-left-col a, #cn-right-col a {display: block; padding: 3px 5px 3px 10px;}
 #cn-left-col a:link, #cn-right-col a:link {color: #000; text-decoration: none;}
