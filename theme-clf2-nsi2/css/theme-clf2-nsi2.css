@@ -30,17 +30,16 @@ CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 #cn-banner #cn-banner-text, #cn-banner-eng #cn-banner-text, #cn-banner-fr #cn-banner-text {width: 100%; margin: 0; padding: 30px 0 3px 0; color: #FFF; font-weight: bold; font-size: 180%; font-family: "times new roman", serif;}
 #cn-banner p, #cn-banner-eng p, #cn-banner-fra p {width: 100%; margin: 0; padding: 0 0 4px 0; color: #FFF; font-size: 120%; font-family: Arial, Helvetica, sans-serif;}
 
-#cn-cmb {float: left; position: relative; z-index: 1; width: 100%;}
 #cn-cmb, #cn-cmb ul li {background-color: #000;}
+#cn-cmb {width: 100%; float: left;}
+#cn-cmb ul {list-style-type: none; margin: 0; padding-left: 0; height: 1.57em;}
+#cn-cmb ul li {float: left; width: 16.5%; min-width: 9.5em; height: 1.51em;}
+#cn-cmb ul li a {display: block; text-align: left; width: 100%; padding: 0.16em 0px 0.16em 3px; border-left: 1px solid #FFF; white-space: nowrap; font-weight: bold;}
+#cn-cmb ul li:first-child a {border-left: none;}
 #cn-cmb ul li a:link, #cn-cmb ul li a:visited {background-color: #000; color: #FFF; text-decoration: none;}
 #cn-cmb ul li a:hover, #cn-cmb ul li a:active, #cn-cmb ul li a:focus {color: #000; background-color: #CCC;}
-#cn-cmb ul li:first-child a {border-left: medium none;}
-#cn-cmb ul {list-style-type: none; margin: 0; padding-left: 0;}
-#cn-cmb ul li {float: left; width: 16.5%; min-width: 9.5em;}
-#cn-cmb ul li a {display: block; text-align: left; width: 100%; padding: 0.16em 0px 80px 3px; border-left: 1px solid #FFF; font-weight: bold; margin-bottom: -78px; overflow: hidden;}
 
-#cn-bcrumb {clear: left; position: relative; z-index: 2; float: left; background: #FFF; width: 100%;}
-#cn-bcrumb ol {background: #FFF; padding-top: 0; line-height: 1.57em; margin: 0; padding-left: 0; list-style-type: none; float: left; width: 100%; clear: right;}
+#cn-bcrumb ol {padding-top: 0; line-height: 1.57em; margin: 0; padding-left: 0; list-style-type: none; float: left; width: 100%; clear: right;}
 #cn-bcrumb li {margin-top: 0; padding-top: 0; float: left; margin-right: 0.3em; white-space: nowrap;}
 
 #cn-left-col, #cn-left-col-gap {background-color: #CC9;}
@@ -73,7 +72,6 @@ CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 #cn-right-col li a img {margin-top: -3px; margin-left: -10px;}
 
 #cn-body-inner-3col #cn-centre-col, #cn-body-inner-2col #cn-centre-col {clear: left;}
-#cn-centre-col {position: relative; z-index: 2;}
 #cn-centre-col-inner h1 {margin-top: 0;}
 
 #cn-foot {border-top: 15px solid #363; height: 3em;}

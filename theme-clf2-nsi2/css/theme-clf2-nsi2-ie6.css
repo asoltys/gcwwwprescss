@@ -16,11 +16,7 @@ body {width: auto;}
 #cn-leaf {background-image: url(../images/lffl.gif);}
 #cn-cmb {margin-bottom: -6px;}
 #cn-cmb ul li {width: 15.3%;}
-#cn-cmb ul li a {position: fixed; display: inline-block;}
 #cn-cmb #cn-cmb1 a {border: none;}
-#cn-cmb #cn-cmb6 {width: 20.3%;}
-
-#cn-bcrumb {float: none; width: auto;}
 #cn-bcrumb ol {margin-top: -2px; margin-bottom: 5px;}
 
 #cn-left-col-gap {padding-right: 2px; left: -2px;}

@@ -38,10 +38,10 @@ h6 {font-size: 110%;}
 /* BASIC GRID | GRILLE SIMPLE */
 #cn-cols {clear: both; float: left; width: 100%;}
 #cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative;}
-#cn-head, #cn-foot, #cn-left-col, #cn-right-col {position: relative; z-index: 2;}
-#cn-centre-col, #cn-left-col-gap, #cn-right-col-gap {position: relative; z-index: 1;}
+#cn-centre-col, #cn-head, #cn-foot, #cn-left-col, #cn-right-col {position: relative;}
 #cn-left-col-gap, #cn-right-col-gap, #cn-centre-col-gap {position: absolute; top: 0; bottom: 0;}
-
+#cn-head, #cn-foot, #cn-left-col, #cn-right-col {z-index: 2;}
+#cn-left-col-gap, #cn-right-col-gap {z-index: 1;}
 #cn-head, #cn-foot {width: 100%; clear: both; background: #FFF;}
 
 #cn-left-col, #cn-left-col-gap {width: 25%; background: #FFF;}
