@@ -33,4 +33,4 @@ body {width: auto;}
 #cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; margin-left: -10px;}
 #cn-foot-inner {position: absolute;}
 #cn-in-pd {border-top: 16px solid #363;}
-.cn-toppage, .cn-topPage {padding-right: 0.2em;}
+.cn-toppage {padding-right: 0.2em;}

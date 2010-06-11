@@ -64,10 +64,10 @@ CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 #cn-cmb ul li a:hover, #cn-cmb ul li a:active, #cn-cmb ul li a:focus {color: #000; background-color: #CCC;}
 
 #cn-in-pd ul {list-style-type: none; margin: -2px 0 0 -40px;}
-#cn-in-pd #cn-sig, #cn-toppage-foot, #cn-topPage-foot, #cn-in-pd-links {margin: 10px 0; width: 33%;}
+#cn-in-pd #cn-sig, #cn-toppage-foot, #cn-in-pd-links {margin: 10px 0; width: 33%;}
 #cn-in-pd #cn-sig {float: left; clear: left; min-width: 205px; }
-#cn-toppage-foot, #cn-topPage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
+#cn-toppage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
 #cn-in-pd-links {float: right; text-align: right; min-width: 4em;}
 
-.cn-toppage, .cn-topPage, #cn-toppage-foot, #cn-topPage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
-.cn-toppage, .cn-topPage {float: right;}
+.cn-toppage, #cn-toppage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
+.cn-toppage {float: right;}

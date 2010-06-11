@@ -77,13 +77,13 @@ CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 #cn-foot {border-top: 15px solid #363; height: 3em;}
 
 #cn-in-pd ul {list-style-type: none; margin: -2px 0 0 -40px;}
-#cn-doc-dates, #cn-toppage-foot, #cn-topPage-foot, #cn-in-pd-links {margin: 10px 0; width: 33%;}
+#cn-doc-dates, #cn-toppage-foot, #cn-in-pd-links {margin: 10px 0; width: 33%;}
 #cn-doc-dates {float: left; clear: left; min-width: 6em; margin-top: 5px; padding: 3px;}
 #cn-doc-dates dt {padding-right: 0.3em; float: left;}
 #cn-doc-dates dd {margin-left: 0px;}
 #cn-doc-dates dd span {white-space: nowrap;}
-#cn-toppage-foot, #cn-topPage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
+#cn-toppage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
 #cn-in-pd-links {float: right; text-align: right; min-width: 4em;}
 
-.cn-toppage, .cn-topPage, #cn-toppage-foot, #cn-topPage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
-.cn-toppage, .cn-topPage {float: right;}
+.cn-toppage #cn-toppage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
+.cn-toppage {float: right;}
