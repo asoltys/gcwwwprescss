@@ -85,5 +85,5 @@ CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 #cn-toppage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
 #cn-in-pd-links {float: right; text-align: right; min-width: 4em;}
 
-.cn-toppage #cn-toppage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
+.cn-toppage, #cn-toppage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
 .cn-toppage {float: right;}
