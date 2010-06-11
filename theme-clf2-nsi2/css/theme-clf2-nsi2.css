@@ -32,9 +32,9 @@ CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 
 #cn-cmb, #cn-cmb ul li {background-color: #000;}
 #cn-cmb {width: 100%; float: left;}
-#cn-cmb ul {list-style-type: none; margin: 0; padding-left: 0; height: 1.57em;}
-#cn-cmb ul li {float: left; width: 16.5%; min-width: 9.5em; height: 1.51em;}
-#cn-cmb ul li a {display: block; text-align: left; width: 100%; padding: 0.16em 0px 0.16em 3px; border-left: 1px solid #FFF; white-space: nowrap; font-weight: bold;}
+#cn-cmb ul {list-style-type: none; margin: 0; padding-left: 0;}
+#cn-cmb ul li {float: left; width: 16.5%; min-width: 9.5em;}
+#cn-cmb ul li a {display: block; text-align: left; width: 100%; padding: 0.16em 0px 0.16em 3px; border-left: 1px solid #FFF; font-weight: bold; min-height: 1.25em;}
 #cn-cmb ul li:first-child a {border-left: none;}
 #cn-cmb ul li a:link, #cn-cmb ul li a:visited {background-color: #000; color: #FFF; text-decoration: none;}
 #cn-cmb ul li a:hover, #cn-cmb ul li a:active, #cn-cmb ul li a:focus {color: #000; background-color: #CCC;}
