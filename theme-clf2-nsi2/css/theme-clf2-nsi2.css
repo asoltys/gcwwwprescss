@@ -26,8 +26,8 @@ CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 #cn-wmms {float: right; text-align: right; width: 49.8%; min-width: 100px;}
 
 #cn-leaf {position: relative; z-index: 2; float: left; text-align: center; width: 100%; min-width: 70px; height: 70px; background-image: url(../images/lffl.png); background-repeat: no-repeat; background-position: top center;}
-#cn-banner, #cn-banner-eng, #cn-banner-fra {float: left; width: 100%; margin-top: -35px; padding-bottom: 10px; text-align: center; background-color: #363;}
-#cn-banner #cn-banner-text, #cn-banner-eng #cn-banner-text, #cn-banner-fr #cn-banner-text {width: 100%; margin: 0; padding: 30px 0 3px 0; color: #FFF; font-weight: bold; font-size: 180%; font-family: "times new roman", serif;}
+#cn-banner, #cn-banner-eng, #cn-banner-fra {float: left; width: 100%; margin-top: -35px; padding-bottom: 4px; text-align: center; background-color: #363;}
+#cn-banner #cn-banner-text, #cn-banner-eng #cn-banner-text, #cn-banner-fr #cn-banner-text {width: 100%; margin: 0; padding: 29px 0 0 0; color: #FFF; font-weight: bold; font-size: 180%; font-family: "times new roman", serif;}
 #cn-banner p, #cn-banner-eng p, #cn-banner-fra p {width: 100%; margin: 0; padding: 0 0 4px 0; color: #FFF; font-size: 120%; font-family: Arial, Helvetica, sans-serif;}
 
 #cn-cmb, #cn-cmb ul li {background-color: #000;}
