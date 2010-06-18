@@ -14,6 +14,7 @@ body {width: auto;}
 #cn-head {margin-top: -10px; padding-top: 10px;}
 #cn-sig, #cn-wmms{width: 45%;}
 #cn-leaf {background-image: url(../images/lffl.gif);}
+#cn-banner, #cn-banner-eng, #cn-banner-fra {height: 80px;}
 #cn-cmb {margin-bottom: -6px;}
 #cn-cmb ul li {width: 16.1%; padding-bottom: 1px; margin-bottom: -1px;}
 #cn-cmb ul li a {height: 1.25em;}
