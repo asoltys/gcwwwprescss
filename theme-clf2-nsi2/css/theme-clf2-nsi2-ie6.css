@@ -21,8 +21,7 @@ body {width: auto;}
 #cn-cmb #cn-cmb1 a {border: none;}
 #cn-bcrumb ol {margin-top: -2px; margin-bottom: 5px;}
 
-#cn-left-col li, #cn-right-col li {display: inline-block;}
-#cn-pd-ul {padding-left: 0;}
+#cn-left-col section, #cn-right-col section {display: inline-block;}
 #cn-right-col-inner div {border: 1px solid #000; padding-left: 5px; padding-right: 5px; margin-bottom: 10px;}
 #cn-right-col-inner div div {border: none; padding-left: 0; padding-right: 0;}
 #cn-right-col-inner div p {margin-top: 1em; margin-bottom: 1em;}
