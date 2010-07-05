@@ -1,11 +1,11 @@
-/* WEB EXPERIENCE TOOLKIT (WET) | BOITE A OUTILS DE L'EXPERIENCE WEB (BOEW)
-TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
-CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+/* Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
 #cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {width: auto;}
 body {margin: 0 auto; width: 780px;}
 
-/****************** EXPANDABLE PAGE CSS | LE CSS POUR UNE PAGE EXTENSIBLE **********************/
+/*** Expandable page CSS / Le CSS pour une page extensible ***/
 /*
 body {width: auto;}
 #cn-right-col-gap {right: 8% !important;}

@@ -1,9 +1,9 @@
-/* WEB EXPERIENCE TOOLKIT (WET) | BOITE A OUTILS DE L'EXPERIENCE WEB (BOEW)
-TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
-CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+/* Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
 
-/* ELEMENT NORMALIZATION | NORMALISATION DES ELEMENTS */
+/* Element normalization / Normalisation des éléments */
 input, select, textarea, button {font-size: 100%;}
 body {margin: 0; padding: 0;}
 a:active, a:focus {cursor: auto;}
@@ -22,10 +22,10 @@ h4 {font-size: 130%;}
 h5 {font-size: 120%;}
 h6 {font-size: 110%;}
 
-/* HIDE NON-VISUAL NAVIGATION ELEMENTS | CACHER LES ELEMENTS DE NAVIGATION NON-VISUEL */
+/* Hide non-visual navigation elements / Cacher les éléments de navigation non-visuel */
 #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; left: -9000px; font-size: 10%;}
 
-/* SKIP HEADER | SAUT DE L'EN-TETE */
+/* Skip header / Ssut de l'en-tête */
 #cn-skip-head {height: 0; float: left;}
 #cn-skip-head ul {list-style-type: none;}
 #cn-skip-head li {position: absolute; top: 0; width: auto; z-index: 3;}
@@ -35,7 +35,7 @@ h6 {font-size: 110%;}
 #cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited {opacity: 0; color: #FFF; font-weight: bold;}
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {opacity: 1; background-color: #000; text-decoration: none; color: #FFF;}
 
-/* BASIC GRID | GRILLE SIMPLE */
+/* Basic grid / Grille simple */
 #cn-cols {clear: both; float: left; width: 100%;}
 #cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative;}
 #cn-centre-col, #cn-head, #cn-foot, #cn-left-col, #cn-right-col {position: relative;}
@@ -54,15 +54,15 @@ h6 {font-size: 110%;}
 
 #cn-centre-col, #cn-centre-col-gap {float: left; width: 100%; background: #FFF;}
 
-/* 3 COLUMN | 3 COLONNE */
+/* 3 column / 3 colonne */
 #cn-body-inner-3col #cn-centre-col {margin-right: -100%;}
 #cn-body-inner-3col #cn-centre-col-inner {margin-left: 25%; margin-right: 25%; padding-left: 10px; padding-right: 10px;}
 
-/* 2 COLUMN | 2 COLONNE */
+/* 2 column / 2 colonne */
 #cn-body-inner-2col #cn-centre-col {margin-right: -100%;}
 #cn-body-inner-2col #cn-centre-col-inner {margin-left: 25%; padding-left: 10px;}
 
-/* LINK DESCRIPTION | DESCRIPTON DE LIEN */
+/* Link description / Description de lien */
 a.cn-linkdesc {position: relative; z-index: 24; overflow: hidden;}
 a.cn-linkdesc:hover, a.cn-linkdesc:focus, a.cn-linkdesc:active {z-index: 25; outline: 0; text-decoration: none; overflow: visible;}
 a.cn-linkdesc span span {position: absolute; left: -9000px; width: 0;}

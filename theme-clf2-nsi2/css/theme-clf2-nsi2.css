@@ -1,23 +1,23 @@
-/* WEB EXPERIENCE TOOLKIT (WET) | BOITE A OUTILS DE L'EXPERIENCE WEB (BOEW)
-TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
-CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+/* Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
 #cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0 auto; width: 760px; min-width: 12.00em;}
 
-/****************** EXPANDABLE PAGE CLIENT-SIDE-CSS (IE6-SPECIFIC CSS IN THEME-CLF2-NSI2-IE6.CSS) | LE CSS DE COTE CLIENT POUR UNE PAGE EXTENSIBLE (LE CSS POUR IE6 SE TROUVE DANS THEME-CLF2-NSI2-IE6.CSS) **********************/
+/*** Expandable page CSS (IE6-specific CSS in theme-clf2-nsi2-ie6.css) / Le CSS pour une page extensible (le CSS pour IE6 se trouve dans theme-clf2-nsi2-ie6.css ***/
 /*#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {padding: 0; width: auto;}*/
 
 #cn-left-col, #cn-left-col-gap {width: 150px;}
 #cn-left-col {margin-right: -150px;}
 #cn-right-col, #cn-right-col-gap {width: 195px;}
 
-/* 3 COLUMN | 3 COLONNE */
+/* 3 column / 3 colonne */
 #cn-body-inner-3col #cn-centre-col-inner {margin-left: 150px; margin-right: 195px;}
 
-/* 2 COLUMN | 2 COLONNE */
+/* 2 column / 2 colonne */
 #cn-body-inner-2col #cn-centre-col-inner {margin-left: 150px; padding-left: 10px;}
 
-/* Hide hidden heading elements */
+/* Hide hidden heading elements / Cacher les éléments d'en-tête invisibles */
 #cn-bcrumb h2, #cn-cmb h2, #cn-in-pd h3 {position: absolute; left: -9000px; font-size: 10%;}
 
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {background-color: #363;}

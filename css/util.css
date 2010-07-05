@@ -1,9 +1,9 @@
-/* WEB EXPERIENCE TOOLKIT (WET) | BOITE A OUTILS DE L'EXPERIENCE WEB (BOEW)
-TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
-CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+/* Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
 
-/* GENERIC UTILITY CSS | CSS D'UTILITE GENERIQUE */
+/* Generic utility CSS / CSS d'utilité générique */
 .fontsize200, .fontSize200 {font-size: 200%;}
 .fontsize195, .fontSize195 {font-size: 195%;}
 .fontsize190, .fontSize190 {font-size: 190%;}
@@ -60,7 +60,7 @@ div.gcinits {float: left; padding-bottom: 5px;}
 div.gcinit div {width: 191px; height: 5.16em; border: 1px solid #000;}
 div.gcinit a, div.gcinit a:visited {width: 100%; height: 100%; float: left; text-decoration: none;}
 
-/* ALIGNMENT UTILITY CSS | CSS D'UTILITE D'ALIGNEMENT */
+/* Alignment utility CSS / CSS d'utilité d'alignement */
 .align-right, .alignRight {text-align: right;}
 .align-center, .alignCenter {text-align: center;}
 .align-left, .alignLeft {text-align: left;}
@@ -83,7 +83,7 @@ div.gcinit a, div.gcinit a:visited {width: 100%; height: 100%; float: left; text
 .indent4 {padding-left: 72px;}
 .indent5 {padding-left: 90px;}
 
-/* LIST UTILITY CSS | CSS D'UTILITE DE LISTE */
+/* List utility CSS / CSS d'utilité de liste */
 ul.nobullet, ul.noBullet {list-style-type: none;}
 ul.disc {list-style-type: disc;}
 ul.square {list-style-type: square;}
@@ -93,7 +93,7 @@ ol.upper-alpha {list-style-type: upper-alpha;}
 ol.lower-roman {list-style-type: lower-roman;}
 ol.upper-roman {list-style-type: upper-roman;}
 
-/* TEXT UTILITY CSS | CSS D'UTILITE DE TEXTE */
+/* Text utility CSS / CSS d'utilité de texte */
 .nowrap, .noWrap {white-space: nowrap;}
 .doublelinespace, .doubleLineSpace {line-height: 200%;}
 .uppercase {text-transform: uppercase;}
