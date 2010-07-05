@@ -32,7 +32,7 @@ h6 {font-size: 110%;}
 #cn-skip-head #cn-sh-link-1 {right: 53%;}
 #cn-skip-head #cn-sh-link-2 {left: 53%;}
 #cn-skip-head a {padding: 5px; display: block; width: 100%;}
-#cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited {opacity: 0; color: #FFF; font-weight: bold;}
+#cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited {opacity: 0; color: #FFF; background-color: transparent; font-weight: bold;}
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {opacity: 1; background-color: #000; text-decoration: none; color: #FFF;}
 
 /* Basic grid / Grille simple */
