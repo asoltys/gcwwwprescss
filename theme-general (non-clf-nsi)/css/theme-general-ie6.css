@@ -2,10 +2,14 @@
 Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
+
+#cn-centre-col-inner, #cn-left-col-inner, #cn-right-col-inner {height: 1%;}
 #cn-left-col li, #cn-right-col li {display: inline-block;}
-#cn-right-col-inner div {border: 1px solid #000; padding-left: 5px; padding-right: 5px; margin-bottom: 10px;}
+#cn-left-col ul li li, #cn-right-col ul li li {margin-right: -5px;}
+#cn-left-col form a {margin-right: -5px; width: 100%;}
+#cn-right-col-inner div {border: 1px solid #000; margin-bottom: 10px;}
 #cn-right-col-inner div div {border: none; padding-left: 0; padding-right: 0;}
-#cn-right-col-inner div p {margin-top: 1em; margin-bottom: 1em;}
+#cn-right-col-inner div p {margin: 1em 9px 1em 9px;}
 #cn-cmb ul li {width: 23%;}
 #cn-cmb ul li a {height: 1.25em;}
 #cn-cmb #cn-cmb1 a {border: none;}
