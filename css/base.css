@@ -25,7 +25,7 @@ h6 {font-size: 110%;}
 /* Hide non-visual navigation elements / Cacher les éléments de navigation non-visuel */
 #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; left: -9000px; font-size: 10%;}
 
-/* Skip header / Ssut de l'en-tête */
+/* Skip header / Début de l'en-tête */
 #cn-skip-head {height: 0; float: left;}
 #cn-skip-head ul {list-style-type: none;}
 #cn-skip-head li {position: absolute; top: 0; width: auto; z-index: 3;}
