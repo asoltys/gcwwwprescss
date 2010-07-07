@@ -1,9 +1,9 @@
-/* Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+/* Web Experience Toolkit (WET) / BoÃ®te Ã  outils de l'expÃ©rience Web (BOEW)
 Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
-Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+Conditions rÃ©gissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
 
-/* Element normalization / Normalisation des éléments */
+/* Element normalization / Normalisation des Ã©lÃ©ments */
 input, select, textarea, button {font-size: 100%;}
 body {margin: 0; padding: 0;}
 a:active, a:focus {cursor: auto;}
@@ -22,10 +22,10 @@ h4 {font-size: 130%;}
 h5 {font-size: 120%;}
 h6 {font-size: 110%;}
 
-/* Hide non-visual navigation elements / Cacher les éléments de navigation non-visuel */
+/* Hide non-visual navigation elements / Cacher les Ã©lÃ©ments de navigation non-visuel */
 #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; left: -9000px; font-size: 10%;}
 
-/* Skip header / Début de l'en-tête */
+/* Skip header / DÃ©but de l'en-tÃªte */
 #cn-skip-head {height: 0; float: left;}
 #cn-skip-head ul {list-style-type: none;}
 #cn-skip-head li {position: absolute; top: 0; width: auto; z-index: 3;}
@@ -35,7 +35,7 @@ h6 {font-size: 110%;}
 #cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited {opacity: 0; color: #FFF; background-color: transparent; font-weight: bold;}
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {opacity: 1; background-color: #000; text-decoration: none; color: #FFF;}
 
-/* Basic grid / Grille simple */
+/* Basic grid / Grille simple */
 #cn-cols {clear: both; float: left; width: 100%;}
 #cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative;}
 #cn-centre-col, #cn-head, #cn-foot, #cn-left-col, #cn-right-col {position: relative;}

@@ -1,6 +1,6 @@
-/* Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+/* Web Experience Toolkit (WET) / BoÃ®te Ã  outils de l'expÃ©rience Web (BOEW)
 Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
-Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+Conditions rÃ©gissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
 #cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0 auto; width: 760px; min-width: 12.00em;}
 
@@ -17,7 +17,7 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwte
 /* 2 column / 2 colonne */
 #cn-body-inner-2col #cn-centre-col-inner {margin-left: 150px; padding-left: 10px;}
 
-/* Hide hidden heading elements / Cacher les éléments d'en-tête invisibles */
+/* Hide hidden heading elements / Cacher les Ã©lÃ©ments d'en-tÃªte invisibles */
 #cn-bcrumb h2, #cn-cmb h2, #cn-in-pd h3 {position: absolute; left: -9000px; font-size: 10%;}
 
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {background-color: #363;}
