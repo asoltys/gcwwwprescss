@@ -4,6 +4,7 @@ Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/
 Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
 
+#cn-skip-head {float: none;}
 #cn-skip-head li {padding-bottom: 5px; width: 1%;}
 #cn-skip-head a {width: auto; white-space: nowrap;}
 #cn-skip-head a:link, #cn-skip-head a:visited {filter: alpha(opacity = 0); zoom: 1;}
