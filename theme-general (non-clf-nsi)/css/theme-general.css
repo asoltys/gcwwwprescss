@@ -14,7 +14,7 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-wmms {float: right; text-align: right; width: 39.8%; min-width: 90px;}
 
 #cn-banner, #cn-banner-eng, #cn-banner-fra {float: left; width: 100%; padding-bottom: 10px; text-align: center; background-color: #363;}
-#cn-banner #cn-banner-text, #cn-banner-eng #cn-banner-text, #cn-banner-fr #cn-banner-text {width: 100%; margin: 0; padding: 15px 0 5px 0; color: #FFF; font-weight: bold; font-size: 150%;}
+#cn-banner #cn-banner-text, #cn-banner-eng #cn-banner-text, #cn-banner-fra #cn-banner-text {width: 100%; margin: 0; padding: 15px 0 5px 0; color: #FFF; font-weight: bold; font-size: 150%;}
 
 #cn-bcrumb ol {padding-top: 0; line-height: 1.5em; margin: 0; padding-left: 0; list-style-type: none; float: left; width: 100%; clear: right;}
 #cn-bcrumb li {margin-top: 0; padding-top: 0; float: left; margin-right: 0.3em; white-space: nowrap;}
