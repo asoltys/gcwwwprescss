@@ -40,6 +40,7 @@ body {width: auto;}
 
 #cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; margin-left: -10px;}
 #cn-foot-inner {position: absolute;}
-#cn-in-pd {border-top: 16px solid #363;}
+#cn-in-pd {border-top-width: 16px; margin-top: -1px;}
+#cn-pd-ul {padding-left: 0;}
 #cn-toppage-foot, #cn-in-pd-links {width: 28%;}
 .cn-toppage {padding-right: 0.2em;}
