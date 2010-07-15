@@ -22,6 +22,8 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-cmb #cn-cmb1 a {border: none;}
 #cn-cmb #cn-cmb4 {width: 23%;}
 
+#cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; margin-left: -10px;}
+#cn-foot-inner {position: absolute;}
 #cn-in-pd {height: 50px;}
 #cn-in-pd #cn-sig, #cn-toppage-foot, #cn-in-pd-links {position: absolute; width: 100%;}
 #cn-toppage-foot {left: 0;}
