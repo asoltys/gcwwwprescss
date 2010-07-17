@@ -7,14 +7,14 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-bcrumb ol {margin: 1px 0 3px 0; clear: left;}
 #cn-bcrumb li {padding-bottom: 3px;}
 
-#cn-left-col ul li li, #cn-right-col ul li li {margin-right: -5px;}
-#cn-left-col form a {margin-right: -5px; width: 100%;}
-#cn-left-col #cn-search-box {margin-top: -15px;}
-#cn-left-col #cn-search-box a {margin-bottom: -19px;}
-#cn-right-col h3 + div p {margin-top: 1em; margin-bottom: 1em;}
-#cn-right-col-inner div {border: 1px solid #000; margin-bottom: 10px;}
-#cn-right-col-inner div div {border: none; padding-left: 0; padding-right: 0;}
-#cn-right-col-inner div p {margin: 1em 9px 1em 9px;}
+.cn-left-col-default ul li li, #cn-right-col ul li li {margin-right: -5px;}
+.cn-left-col-default form a {margin-right: -5px; width: 100%;}
+.cn-left-col-default #cn-search-box {margin-top: -15px;}
+.cn-left-col-default #cn-search-box a {margin-bottom: -19px;}
+.cn-right-col-default h3 + div p {margin-top: 1em; margin-bottom: 1em;}
+.cn-right-col-default div {border: 1px solid #000; margin-bottom: 10px;}
+.cn-right-col-default div div {border: none; padding-left: 0; padding-right: 0;}
+.cn-right-col-default div p {margin: 1em 9px 1em 9px;}
 
 #cn-cmb ul {height: auto; overflow: hidden;}
 #cn-cmb ul li {width: 23%;}

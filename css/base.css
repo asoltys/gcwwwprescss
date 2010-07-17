@@ -12,6 +12,7 @@ a img {border: none;}
 abbr, acronym {cursor: help; border-bottom: 1px dotted #000;} 
 q:before, q:after {content: "";}
 dl, ol, ul {margin-top: 1em; margin-bottom: 1em;}
+table {border-collapse: collapse; border-spacing: 0;}
 a[href]:hover, a[href]:active, a[href]:focus {color: #C00;}
 body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 80%;}
 pre, code, kbd, samp, tt {font-family: "Courier New", Courier, monospace; font-size: 112%;}
