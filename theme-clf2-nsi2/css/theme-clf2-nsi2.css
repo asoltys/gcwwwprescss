@@ -6,17 +6,22 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0 auto; width: 760px; min-width: 12.00em;}
 
 /*** Expandable page CSS (IE6-specific CSS in theme-clf2-nsi2-ie6.css) / Le CSS pour une page extensible (le CSS pour IE6 se trouve dans theme-clf2-nsi2-ie6.css ***/
-/*#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {padding: 0; width: auto;}*/
+/* #cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {padding: 0; width: auto;} */
 
 #cn-left-col, #cn-left-col-gap {width: 150px;}
 #cn-left-col {margin-right: -150px;}
 #cn-right-col, #cn-right-col-gap {width: 195px;}
 
-/* 3 column / 3 colonne */
-#cn-body-inner-3col #cn-centre-col-inner {margin-left: 150px; margin-right: 195px;}
+/* 3 column / 3 colonnes */
+#cn-body-inner-3col #cn-centre-col-inner {margin-left: 155px; margin-right: 200px; padding-left: 5px; padding-right: 5px;}
+#cn-body-inner-3col #cn-centre-col-gap {left: 155px; right: 200px;}
 
-/* 2 column / 2 colonne */
-#cn-body-inner-2col #cn-centre-col-inner {margin-left: 150px; padding-left: 10px;}
+/* 2 column / 2 colonnes */
+#cn-body-inner-2col #cn-centre-col-inner {margin-left: 155px; padding-left: 5px; padding-right: 0px;}
+#cn-body-inner-2col #cn-centre-col-gap {left: 155px;}
+
+/* 1 column / 1 colonne */
+#cn-body-inner-1col #cn-centre-col-inner {padding-left: 0px; padding-right: 0px;}
 
 /* Hide hidden heading elements / Cacher les éléments d'en-tête invisibles */
 #cn-bcrumb h2, #cn-cmb h2, #cn-in-pd h3 {position: absolute; left: -9000px; font-size: 10%;}
@@ -32,19 +37,19 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-banner p, #cn-banner-eng p, #cn-banner-fra p {width: 100%; margin: 0; padding: 0 0 4px 0; color: #FFF; font-size: 120%; font-family: Arial, Helvetica, sans-serif;}
 
 #cn-cmb, #cn-cmb ul li {background-color: #000;}
-#cn-cmb {width: 100%; float: left;}
+#cn-cmb {width: 100%; float: left; overflow-x: hidden;}
 #cn-cmb ul {list-style-type: none; margin: 0; padding-left: 0;}
 #cn-cmb ul li {float: left; width: 16.5%; min-width: 9.5em;}
 #cn-cmb ul li a {display: block; text-align: left; width: 100%; padding: 0.16em 0px 0.16em 3px; border-left: 1px solid #FFF; font-weight: bold; min-height: 1.25em;}
 #cn-cmb ul li:first-child a {border-left: none;}
 #cn-cmb ul li a:link, #cn-cmb ul li a:visited {background-color: #000; color: #FFF; text-decoration: none;}
 #cn-cmb ul li a:hover, #cn-cmb ul li a:active, #cn-cmb ul li a:focus {color: #000; background-color: #CCC;}
+#cn-cmb6 a:hover, #cn-cmb6 a:active, #cn-cmb6 a:focus {width: 120%;}
 
 #cn-bcrumb ol {padding-top: 0; line-height: 1.57em; margin: 0; padding-left: 0; list-style-type: none; float: left; width: 100%; clear: right;}
 #cn-bcrumb li {margin-top: 0; padding-top: 0; float: left; margin-right: 0.3em; white-space: nowrap;}
 
-#cn-left-col, #cn-left-col-gap {background-color: #CC9;}
-
+#cn-left-col-inner, #cn-left-col-gap {background-color: #CC9;}
 .cn-left-col-default h3 {padding: 2px 5px; background-color: #363; color: #FFF; margin-top: 0; margin-bottom: 0; font-size: 110%;}
 .cn-left-col-default #cn-search-box {margin: 5px 0 0 10px;}
 .cn-left-col-default #cn-search-box #cn-search {border: 1px solid #363; margin-right: 5px; width: 92%;}

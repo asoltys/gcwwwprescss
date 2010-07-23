@@ -5,13 +5,12 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 */
 #cn-head {background: #FF9;}
 #cn-foot {background: #CCC;}
-#cn-head-inner, #cn-foot-inner, #cn-left-col-inner, #cn-right-col-inner {padding: 5px 10px;}
+#cn-head-inner, #cn-foot-inner, #cn-left-col-inner, #cn-right-col-inner {padding: 5px;}
 
-#cn-left-col, #cn-left-col-gap {background: #CC9;} 
-#cn-right-col, #cn-right-col-gap {background: #99F;}
+#cn-left-col-inner, #cn-left-col-gap {background: #CC9;} 
+#cn-right-col-inner, #cn-right-col-gap {background: #99F;}
 
-#cn-centre-col, #cn-centre-col-gap {background: #9C9;}
-#cn-body-inner-1col #cn-centre-col-inner {padding: 0 10px;}
+#cn-centre-col-inner, #cn-centre-col-gap {background: #9C9;}
 dl dd {margin-left: 0px;}
 dl dd ul {margin-top: 0;}
 

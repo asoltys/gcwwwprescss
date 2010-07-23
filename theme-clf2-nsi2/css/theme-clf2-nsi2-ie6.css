@@ -7,10 +7,9 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 body {margin: 0 auto; width: 780px;}
 
 /*** Expandable page CSS / Le CSS pour une page extensible ***/
-/*
-body {width: auto;}
-#cn-right-col-gap {right: 8% !important;}
-*/
+/* body {width: auto;}
+#cn-body-inner-2col #cn-centre-col-gap, #cn-body-inner-3col #cn-centre-col-gap {width: 90% !important; margin-left: -150px;}
+#cn-right-col-gap {right: 2% !important;} */
 
 #cn-skip-head {float: none;}
 #cn-skip-head #cn-sh-link-1 {right: 51%;}
@@ -24,6 +23,7 @@ body {width: auto;}
 #cn-cmb ul li {width: 16.1%; padding-bottom: 1px; margin-bottom: -1px;}
 #cn-cmb ul li a {height: 1.25em;}
 #cn-cmb #cn-cmb1 a {border: none;}
+#cn-cmb6 a:hover, #cn-cmb6 a:active, #cn-cmb6 a:focus {width: 104%;}
 #cn-bcrumb ol {margin: 1px 0 0 0; clear: left; line-height: 1.25em;}
 #cn-bcrumb li {padding-bottom: 3px;}
 
@@ -37,6 +37,8 @@ body {width: auto;}
 .cn-right-col-default div p {margin: 1em 9px 1em 9px;}
 #cn-right-col-gap {right: 2.6%;}
 #cn-centre-col-inner {margin-bottom: 1em;}
+#cn-body-inner-2col #cn-centre-col-gap {width: 605px;}
+#cn-body-inner-3col #cn-centre-col-gap {width: 405px;}
 
 #cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; margin-left: -10px;}
 #cn-foot-inner {position: absolute;}

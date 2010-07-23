@@ -39,31 +39,36 @@ h6 {font-size: 110%;}
 
 /* Basic grid / Grille simple */
 #cn-cols {clear: both; float: left; width: 100%;}
-#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative;}
+#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative; background: #FFF;}
 #cn-centre-col, #cn-head, #cn-foot, #cn-left-col, #cn-right-col {position: relative;}
 #cn-left-col-gap, #cn-right-col-gap, #cn-centre-col-gap {position: absolute; top: 0; bottom: 0;}
 #cn-head, #cn-foot, #cn-left-col, #cn-right-col {z-index: 2;}
 #cn-left-col-gap, #cn-right-col-gap {z-index: 1;}
 #cn-head, #cn-foot {width: 100%; clear: both; background: #FFF;}
 
-#cn-left-col, #cn-left-col-gap {width: 25%; background: #FFF;}
+#cn-left-col, #cn-left-col-gap {width: 25%;}
 #cn-left-col {float: left; margin-right: -25%;}
+#cn-left-col-inner, #cn-left-col-gap {background: #FFF;}
 #cn-left-col-gap {left: 0;}
 
-#cn-right-col, #cn-right-col-gap {width: 25%; background: #FFF;}
+#cn-right-col, #cn-right-col-gap {width: 25%;}
 #cn-right-col {float: right;}
+#cn-right-col-inner, #cn-right-col-gap {background: #FFF;}
 #cn-right-col-gap {right: 0;}
 
-#cn-centre-col, #cn-centre-col-gap {float: left; width: 100%; background: #FFF;}
+#cn-centre-col {width: 100%;}
+#cn-centre-col, #cn-centre-col-gap {float: left;}
+#cn-centre-col-inner {padding: 1px 5px;}
 
 /* 3 column / 3 colonne */
 #cn-body-inner-3col #cn-centre-col {margin-right: -100%;}
-#cn-body-inner-3col #cn-centre-col-inner {margin-left: 25%; margin-right: 25%; padding-left: 10px; padding-right: 10px;}
+#cn-body-inner-3col #cn-centre-col-inner {margin-left: 25%; margin-right: 25%;}
+#cn-body-inner-3col #cn-centre-col-gap {left: 25%; right: 25%;}
 
 /* 2 column / 2 colonne */
 #cn-body-inner-2col #cn-centre-col {margin-right: -100%;}
-#cn-body-inner-2col #cn-centre-col-inner {margin-left: 25%; padding-left: 10px;}
-
+#cn-body-inner-2col #cn-centre-col-inner {margin-left: 25%;}
+#cn-body-inner-2col #cn-centre-col-gap {left: 25%;}
 /* Link description / Description de lien */
 a.cn-linkdesc {position: relative; z-index: 24; overflow: hidden;}
 a.cn-linkdesc:hover, a.cn-linkdesc:focus, a.cn-linkdesc:active {z-index: 25; outline: 0; text-decoration: none; overflow: visible;}
