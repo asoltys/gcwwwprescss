@@ -39,21 +39,22 @@ h6 {font-size: 110%;}
 
 /* Basic grid / Grille simple */
 #cn-cols {clear: both; float: left; width: 100%;}
-#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative; background: #FFF;}
+#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative;}
 #cn-centre-col, #cn-head, #cn-foot, #cn-left-col, #cn-right-col {position: relative;}
 #cn-left-col-gap, #cn-right-col-gap, #cn-centre-col-gap {position: absolute; top: 0; bottom: 0;}
 #cn-head, #cn-foot, #cn-left-col, #cn-right-col {z-index: 2;}
 #cn-left-col-gap, #cn-right-col-gap {z-index: 1;}
-#cn-head, #cn-foot {width: 100%; clear: both; background: #FFF;}
+#cn-head, #cn-foot {width: 100%; clear: both;}
+
+/* Default background colours / Couleurs d'arrère-plan par défaut */
+#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col, #cn-head-inner, #cn-foot-inner, #cn-centre-col-inner, #cn-centre-col-gap, #cn-left-col-inner, #cn-left-col-gap, #cn-right-col-inner, #cn-right-col-gap  {background: #FFF;}
 
 #cn-left-col, #cn-left-col-gap {width: 25%;}
 #cn-left-col {float: left; margin-right: -25%;}
-#cn-left-col-inner, #cn-left-col-gap {background: #FFF;}
 #cn-left-col-gap {left: 0;}
 
 #cn-right-col, #cn-right-col-gap {width: 25%;}
 #cn-right-col {float: right;}
-#cn-right-col-inner, #cn-right-col-gap {background: #FFF;}
 #cn-right-col-gap {right: 0;}
 
 #cn-centre-col {width: 100%;}
