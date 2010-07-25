@@ -70,6 +70,7 @@ h6 {font-size: 110%;}
 #cn-body-inner-2col #cn-centre-col {margin-right: -100%;}
 #cn-body-inner-2col #cn-centre-col-inner {margin-left: 25%;}
 #cn-body-inner-2col #cn-centre-col-gap {left: 25%;}
+
 /* Link description / Description de lien */
 a.cn-linkdesc {position: relative; z-index: 24; overflow: hidden;}
 a.cn-linkdesc:hover, a.cn-linkdesc:focus, a.cn-linkdesc:active {z-index: 25; outline: 0; text-decoration: none; overflow: visible;}
