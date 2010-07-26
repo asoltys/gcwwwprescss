@@ -47,7 +47,7 @@ h6 {font-size: 110%;}
 #cn-head, #cn-foot {width: 100%; clear: both;}
 
 /* Default background colours / Couleurs d'arrère-plan par défaut */
-#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col, #cn-head-inner, #cn-foot-inner, #cn-centre-col-inner, #cn-centre-col-gap, #cn-left-col-inner, #cn-left-col-gap, #cn-right-col-inner, #cn-right-col-gap  {background: #FFF;}
+#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col, #cn-head, #cn-foot, #cn-centre-col-inner, #cn-centre-col-gap, #cn-left-col-inner, #cn-left-col-gap, #cn-right-col-inner, #cn-right-col-gap  {background: #FFF;}
 
 #cn-left-col, #cn-left-col-gap {width: 25%;}
 #cn-left-col {float: left; margin-right: -25%;}

@@ -3,8 +3,8 @@
 Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
-#cn-head-inner {background: #FF9;}
-#cn-foot-inner {background: #CCC;}
+#cn-head {background: #FF9;}
+#cn-foot {background: #CCC;}
 #cn-head-inner, #cn-foot-inner, #cn-left-col-inner, #cn-right-col-inner {padding: 5px;}
 
 #cn-left-col-inner, #cn-left-col-gap {background: #CC9;} 
