@@ -3,7 +3,8 @@
 Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
-#cn-skip-head {float: none;}
+#cn-skip-head {float: none; margin-top: -13px;}
+#cn-skip-head ul {height: 10px; margin-top: -10px;}
 #cn-skip-head li {padding-bottom: 5px; width: 1%;}
 #cn-skip-head a {width: auto; white-space: nowrap;}
 #cn-skip-head a:link, #cn-skip-head a:visited {filter: alpha(opacity = 0); zoom: 1;}
@@ -24,5 +25,5 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-left-col a, #cn-right-col a {height: 1%;}
 #cn-left-col li, #cn-right-col li {display: inline-block;}
 
-#cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; border-bottom: 10px solid #FFF; margin-left: -10px;}
-#cn-foot-inner {position: absolute;}
+#cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; margin-left: -10px;}
+#cn-foot-inner {position: absolute; padding-bottom: 10px;}

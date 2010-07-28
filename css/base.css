@@ -29,7 +29,7 @@ h6 {font-size: 110%;}
 
 /* Skip header / Début de l'en-tête */
 #cn-skip-head {height: 0; float: left;}
-#cn-skip-head ul {list-style-type: none;}
+#cn-skip-head ul {list-style-type: none; margin-top: -1.8em;}
 #cn-skip-head li {position: absolute; top: 0; width: auto; z-index: 3;}
 #cn-skip-head #cn-sh-link-1 {right: 53%;}
 #cn-skip-head #cn-sh-link-2 {left: 53%;}
