@@ -18,6 +18,7 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 .cn-left-col-default li, .cn-right-col-default li {margin-left: auto;}
 .cn-left-col-default #cn-search-box {margin-top: -15px;}
 .cn-left-col-default #cn-search-box a {margin-bottom: -19px;}
+.cn-left-col-default #cn-search-box #cn-search-submit {overflow: visible; padding: 0 8px;}
 .cn-right-col-default h3 + div p {margin-top: 1em; margin-bottom: 1em;}
 
 #cn-pd-ul li {margin-left: -40px;}
