@@ -17,11 +17,8 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-body-inner-3col #cn-centre-col-gap {left: 155px; right: 200px;}
 
 /* 2 column / 2 colonnes */
-#cn-body-inner-2col #cn-centre-col-inner {margin-left: 155px; padding-left: 5px; padding-right: 0px;}
+#cn-body-inner-2col #cn-centre-col-inner {margin-left: 155px; padding-left: 5px;}
 #cn-body-inner-2col #cn-centre-col-gap {left: 155px;}
-
-/* 1 column / 1 colonne */
-#cn-body-inner-1col #cn-centre-col-inner {padding-left: 0px; padding-right: 0px;}
 
 /* Hide hidden heading elements / Cacher les éléments d'en-tête invisibles */
 #cn-bcrumb h2, #cn-cmb h2, #cn-in-pd h3 {position: absolute; left: -9000px; font-size: 10%;}

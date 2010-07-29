@@ -59,7 +59,7 @@ h6 {font-size: 110%;}
 
 #cn-centre-col {width: 100%;}
 #cn-centre-col, #cn-centre-col-gap {float: left;}
-#cn-centre-col-inner {padding: 1px 5px;}
+#cn-centre-col-inner {padding: 1px 0;}
 
 /* 3 column / 3 colonne */
 #cn-body-inner-3col #cn-centre-col {margin-right: -100%;}

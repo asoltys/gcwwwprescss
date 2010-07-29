@@ -45,6 +45,12 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 .cn-right-col-default ul ul {margin-bottom: 0px;}
 .cn-right-col-default li a img {margin-top: -3px; margin-left: -10px;}
 
+/* 3 column / 3 colonnes */
+#cn-body-inner-3col #cn-centre-col-inner {padding-left: 5px; padding-right: 5px;}
+
+/* 2 column / 2 colonnes */
+#cn-body-inner-2col #cn-centre-col-inner {padding-left: 5px;}
+
 #cn-body-inner-3col #cn-centre-col, #cn-body-inner-2col #cn-centre-col {clear: left;}
 #cn-centre-col-inner h1 {margin-top: 0;}
 #cn-doc-dates {margin-top: 0; padding: 3px;}
