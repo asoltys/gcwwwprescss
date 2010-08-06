@@ -34,14 +34,15 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-banner p, #cn-banner-eng p, #cn-banner-fra p {width: 100%; margin: 0; padding: 0 0 4px 0; color: #FFF; font-size: 120%; font-family: Arial, Helvetica, sans-serif;}
 
 #cn-cmb, #cn-cmb ul li {background-color: #000;}
-#cn-cmb {width: 100%; float: left; overflow-x: hidden;}
-#cn-cmb ul {list-style-type: none; margin: 0; padding-left: 0;}
+#cn-cmb {width: 100%; float: left;}
+#cn-cmb ul {list-style-type: none; margin: 0; padding-left: 0; overflow-x: hidden;}
 #cn-cmb ul li {float: left; width: 16.5%; min-width: 9.5em;}
 #cn-cmb ul li a {display: block; text-align: left; width: 100%; padding: 0.16em 0px 0.16em 3px; border-left: 1px solid #FFF; font-weight: bold; min-height: 1.25em;}
 #cn-cmb ul li:first-child a {border-left: none;}
 #cn-cmb ul li a:link, #cn-cmb ul li a:visited {background-color: #000; color: #FFF; text-decoration: none;}
 #cn-cmb ul li a:hover, #cn-cmb ul li a:active, #cn-cmb ul li a:focus {color: #000; background-color: #CCC;}
-#cn-cmb6 a:hover, #cn-cmb6 a:active, #cn-cmb6 a:focus {width: 120%;}
+#cn-cmb6 a:hover, #cn-cmb6 a:active {width: 120%;}
+#cn-cmb6 a:focus {width: 103.26%;}
 
 #cn-bcrumb ol {padding-top: 0; line-height: 1.57em; margin: 0; padding-left: 0; list-style-type: none; float: left; width: 100%; clear: right;}
 #cn-bcrumb li {margin-top: 0; padding-top: 0; float: left; margin-right: 0.3em; white-space: nowrap;}

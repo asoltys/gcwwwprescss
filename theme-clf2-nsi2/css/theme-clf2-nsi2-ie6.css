@@ -31,6 +31,7 @@ body {margin: 0 auto; width: 780px;}
 .cn-left-col-default ul ul, .cn-right-col-default ul ul {margin-left: 40px;}
 .cn-left-col-default li, .cn-right-col-default li {margin-left: auto;}
 .cn-left-col-default ul li li, .cn-right-col-default ul li li {margin-right: -5px;}
+.cn-left-col-default ul li li a, .cn-right-col-default ul li li a {margin-left: auto; position: relative; left: -5px;}
 .cn-left-col-default form a {margin-right: -5px; width: 100%;}
 .cn-left-col-default #cn-search-box {margin-top: -15px;}
 .cn-left-col-default #cn-search-box a {margin-bottom: -19px;}
