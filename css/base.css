@@ -39,7 +39,7 @@ h6 {font-size: 110%;}
 
 /* Basic grid / Grille simple */
 #cn-cols {clear: both; float: left; width: 100%;}
-#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative;}
+#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-2col-right, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative;}
 #cn-centre-col, #cn-head, #cn-foot, #cn-left-col, #cn-right-col {position: relative;}
 #cn-left-col-gap, #cn-right-col-gap, #cn-centre-col-gap {position: absolute; top: 0; bottom: 0;}
 #cn-head, #cn-foot, #cn-left-col, #cn-right-col {z-index: 2;}
@@ -47,7 +47,7 @@ h6 {font-size: 110%;}
 #cn-head, #cn-foot {width: 100%; clear: both;}
 
 /* Default background colours / Couleurs d'arrère-plan par défaut */
-#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col, #cn-head, #cn-foot, #cn-centre-col-inner, #cn-centre-col-gap, #cn-left-col-inner, #cn-left-col-gap, #cn-right-col-inner, #cn-right-col-gap  {background: #FFF;}
+#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-2col-right, #cn-body-inner-1col, #cn-head, #cn-foot, #cn-centre-col-inner, #cn-centre-col-gap, #cn-left-col-inner, #cn-left-col-gap, #cn-right-col-inner, #cn-right-col-gap  {background: #FFF;}
 
 #cn-left-col, #cn-left-col-gap {width: 25%;}
 #cn-left-col {float: left; margin-right: -25%;}
@@ -61,15 +61,19 @@ h6 {font-size: 110%;}
 #cn-centre-col, #cn-centre-col-gap {float: left;}
 #cn-centre-col-inner {padding: 1px 0;}
 
+#cn-body-inner-3col #cn-centre-col, #cn-body-inner-2col #cn-centre-col, #cn-body-inner-2col-right #cn-centre-col {margin-right: -100%;}
+
 /* 3 column / 3 colonne */
-#cn-body-inner-3col #cn-centre-col {margin-right: -100%;}
 #cn-body-inner-3col #cn-centre-col-inner {margin-left: 25%; margin-right: 25%;}
 #cn-body-inner-3col #cn-centre-col-gap {left: 25%; right: 25%;}
 
 /* 2 column / 2 colonne */
-#cn-body-inner-2col #cn-centre-col {margin-right: -100%;}
 #cn-body-inner-2col #cn-centre-col-inner {margin-left: 25%;}
 #cn-body-inner-2col #cn-centre-col-gap {left: 25%; right: 0;}
+
+/* 2 column with navigation on the right / 2 colonne avec la navigation à droite */
+#cn-body-inner-2col-right #cn-centre-col-inner {margin-right: 25%;}
+#cn-body-inner-2col-right #cn-centre-col-gap {left: 0; right: 25%;}
 
 /* Link description / Description de lien */
 a.cn-linkdesc {position: relative; z-index: 24; overflow: hidden;}

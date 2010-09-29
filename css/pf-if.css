@@ -9,6 +9,6 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 	#cn-cols {clear: none;}
 	#cn-skip-head, #cn-left-col, #cn-left-col-gap, #cn-right-col, #cn-right-col-gap, #cn-centre-col-gap {display: none;}
 	#cn-centre-col {position: static; width: 100%; float: none;}
-	#cn-body-inner-3col #cn-centre-col-inner, #cn-body-inner-2col #cn-centre-col-inner {margin: 0; padding: 0; border: none; position: static;}
+	#cn-body-inner-3col #cn-centre-col-inner, #cn-body-inner-2col #cn-centre-col-inner, #cn-body-inner-2col-right #cn-centre-col-inner {margin: 0; padding: 0; border: none; position: static;}
 	#cn-centre-col-inner {border-top: 3px outset #666; padding-top: 20px;}
 }
