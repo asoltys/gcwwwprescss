@@ -4,6 +4,8 @@ Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/
 Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
 a:hover, a:active, a:focus {color: #C00;}
+.cn-invisible, .cn-show-onfocus, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {clip: rect(1px 1px 1px 1px);}
+
 #cn-skip-head {float: none; margin-top: -13px;}
 #cn-skip-head ul {height: 10px; margin-top: -10px;}
 #cn-skip-head li {padding-bottom: 5px; width: 1%;}
@@ -29,3 +31,7 @@ a:hover, a:active, a:focus {color: #C00;}
 
 #cn-foot {position: absolute; height: 1000em; border: none; border-left: 10px solid #FFF; border-right: 10px solid #FFF; margin-left: -10px;}
 #cn-foot-inner {position: absolute; padding-bottom: 10px;}
+
+a.cn-linkdesc {overflow: hidden;}
+a.cn-linkdesc:hover, a.cn-linkdesc:focus, a.cn-linkdesc:active {overflow: visible;}
+a.cn-linkdesc span span {left: -9000px;}

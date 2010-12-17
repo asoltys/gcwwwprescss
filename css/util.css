@@ -33,8 +33,10 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 .smallfont, .fontsize75, .smallFont, .fontSize75 {font-size: 75%;}
 .fontsize70, .fontSize70 {font-size: 70%;}
 
+/**** Deprecated - Use .cn-invisible instead ****/
 .navaid {height: 1px; width: 1px; overflow: hidden; float: right; font-size: 0; position: absolute; top:auto; left: -10000px;}
 .navaid a {color: #FFFFFF;}
+/************************************************/
 
 .widthfull, .widthFull {width: 98.5%;}
 .width95 {width: 95%;}
