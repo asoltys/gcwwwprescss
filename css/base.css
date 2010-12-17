@@ -26,7 +26,7 @@ h6 {font-size: 110%;}
 
 /* Hide non-visual elements / Cacher les éléments non-visuel */
 .cn-invisible, .cn-show-onfocus, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; clip: rect(1px, 1px, 1px, 1px);}
-.cn-show-onfocus:hover, .cn-show-onfocus:focus, .cn-show-onfocus:active {position: static; clip: auto;}
+.cn-show-onfocus:focus, .cn-show-onfocus:active {position: static; clip: auto;}
 
 /* Skip header / Début de l'en-tête */
 #cn-skip-head {height: 0; float: left;}
