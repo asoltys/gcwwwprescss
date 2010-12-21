@@ -25,7 +25,7 @@ h5 {font-size: 120%;}
 h6 {font-size: 110%;}
 
 /* Hide non-visual elements / Cacher les éléments non-visuel */
-.cn-invisible, .cn-show-onfocus, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; clip: rect(1px, 1px, 1px, 1px);}
+.cn-invisible, .invisible, .cn-show-onfocus, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; clip: rect(1px, 1px, 1px, 1px);}
 .cn-show-onfocus:focus, .cn-show-onfocus:active {position: static; clip: auto;}
 .cn-show-onhover, #cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited {opacity: 0;}
 .cn-show-onhover:hover, .cn-show-onhover:focus, .cn-show-onhover:active, #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {opacity: 1;}

@@ -4,7 +4,7 @@ Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/
 Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
 a:hover, a:active, a:focus {color: #C00;}
-.cn-invisible, .cn-show-onfocus, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {clip: rect(1px 1px 1px 1px);}
+.cn-invisible, .invisible, .cn-show-onfocus, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {clip: rect(1px 1px 1px 1px);}
 .cn-show-onhover, #cn-skip-head a:link, #cn-skip-head a:visited, a.cn-linkdesc span span {filter: alpha(opacity = 0); zoom: 1;}
 .cn-show-onhover:hover, .cn-show-onhover:focus, .cn-show-onhover:active, #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active, a.cn-linkdesc:hover span span, a.cn-linkdesc:focus span span, a.cn-linkdesc:active span span {filter: alpha(opacity = 100); zoom: 1;}
 
