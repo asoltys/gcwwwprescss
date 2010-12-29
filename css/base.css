@@ -25,8 +25,8 @@ h5 {font-size: 120%;}
 h6 {font-size: 110%;}
 
 /* Hide non-visual elements / Cacher les éléments non-visuel */
-.cn-invisible, .invisible, .cn-show-onfocus, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; clip: rect(1px, 1px, 1px, 1px);}
-.cn-show-onfocus:focus, .cn-show-onfocus:active {position: static; clip: auto;}
+.cn-invisible, .invisible, .cn-show-onfocus, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important;}
+.cn-show-onfocus:focus, .cn-show-onfocus:active {position: static; clip: auto; height: inherit !important; width: inherit !important; overflow: inherit !important;}
 .cn-show-onhover, #cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited {opacity: 0;}
 .cn-show-onhover:hover, .cn-show-onhover:focus, .cn-show-onhover:active, #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {opacity: 1;}
 
@@ -81,5 +81,5 @@ h6 {font-size: 110%;}
 /* Link description / Description de lien */
 a.cn-linkdesc {position: relative; z-index: 24;}
 a.cn-linkdesc:hover, a.cn-linkdesc:focus, a.cn-linkdesc:active {z-index: 25; outline: 0; text-decoration: none;}
-a.cn-linkdesc span span {position: absolute; clip: rect(1px, 1px, 1px, 1px);}
-a.cn-linkdesc:hover span span, a.cn-linkdesc:focus span span, a.cn-linkdesc:active span span {clip: auto; top: 2em; left: 2.2em; white-space: nowrap; border: 1px solid InfoText; background: InfoBackground; color: InfoText; font: message-box; font-size: 0.85em; padding: 2px 4px; text-align: left;}
+a.cn-linkdesc span span {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important;}
+a.cn-linkdesc:hover span span, a.cn-linkdesc:focus span span, a.cn-linkdesc:active span span {clip: auto; height: inherit !important; width: inherit !important; overflow: inherit !important; top: 2em; left: 2.2em; white-space: nowrap; border: 1px solid InfoText; background: InfoBackground; color: InfoText; font: message-box; font-size: 0.85em; padding: 2px 4px; text-align: left;}
