@@ -1,7 +1,9 @@
 @charset "utf-8";
-/* Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
-Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
-*/
+/*!
+ * CSS presentation layer (Base theme) v1.1 / Couche présentation de CSS (Thème) v1.1
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
 #cn-skip-head a:link, #cn-skip-head a:visited {color: #FF9;}
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {color: #FFF;}

@@ -1,8 +1,10 @@
 @charset "utf-8";
-/* Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
-Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
-*/
+/*!
+ * CSS presentation layer (Base theme) v1.1 / Couche présentation de CSS (Thème) v1.1
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
 #cn-head {background: #FF9;}
 #cn-foot {background: #CCC;}
 #cn-head-inner, #cn-foot-inner, #cn-left-col-inner, #cn-right-col-inner {padding: 5px;}
