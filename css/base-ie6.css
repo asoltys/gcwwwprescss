@@ -12,7 +12,7 @@ a:hover, a:active, a:focus {color: #C00;}
 
 #cn-skip-head {float: none; margin-top: -13px;}
 #cn-skip-head ul {height: 10px; margin-top: -10px;}
-#cn-skip-head li {padding-bottom: 5px; width: 1%;}
+#cn-skip-head li {padding-bottom: 5px; width: 1%; top: 13px;}
 #cn-skip-head a {width: auto; white-space: nowrap;}
 
 #cn-body-inner-3col fieldset {width: 97%;}
