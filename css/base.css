@@ -27,10 +27,10 @@ h5 {font-size: 120%;}
 h6 {font-size: 110%;}
 
 /* Hide non-visual elements / Cacher les éléments non-visuel */
-.cn-invisible, .invisible, .cn-show-onfocus, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important; margin: 0 !important;}
-.cn-show-onfocus:focus, .cn-show-onfocus:active {position: static; clip: auto; height: inherit !important; width: inherit !important; overflow: inherit !important; margin: inherit !important;}
-.cn-show-onhover, #cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited {opacity: 0;}
-.cn-show-onhover:hover, .cn-show-onhover:focus, .cn-show-onhover:active, #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {opacity: 1;}
+.cn-invisible, .invisible, .cn-show-onfocus, #cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important; margin: 0 !important;}
+.cn-show-onfocus:focus, .cn-show-onfocus:active, #cn-skip-head a:focus, #cn-skip-head a:active {position: static; clip: auto; height: inherit !important; width: inherit !important; overflow: inherit !important; margin: inherit !important;}
+.cn-show-onhover {opacity: 0;}
+.cn-show-onhover:hover, .cn-show-onhover:focus, .cn-show-onhover:active {opacity: 1;}
 
 /* Skip header / Début de l'en-tête */
 #cn-skip-head {height: 0; float: left;}
@@ -38,7 +38,7 @@ h6 {font-size: 110%;}
 #cn-skip-head li {position: absolute; top: 0; width: auto; z-index: 3;}
 #cn-skip-head #cn-sh-link-1 {right: 53%;}
 #cn-skip-head #cn-sh-link-2 {left: 53%;}
-#cn-skip-head a {padding: 5px; display: block; width: 100%;}
+#cn-skip-head a {padding: 5px; display: inline-block; width: 100%;}
 #cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited {color: #FFF; background-color: transparent; font-weight: bold;}
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {background-color: #000; text-decoration: none; color: #FFF;}
 
