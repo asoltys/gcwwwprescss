@@ -7,10 +7,10 @@
  */
  
 /* Element normalization / Normalisation des éléments */
- textarea {font-size:100%}
+textarea {font-size:100%}
  
 a:hover, a:active, a:focus {color: #C00;}
-.cn-invisible, .invisible, .cn-show-onfocus, #cn-skip-head a:link, #cn-skip-head a:visited, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {clip: rect(1px 1px 1px 1px);}
+.cn-invisible, .cn-show-onfocus, #cn-skip-head a:link, #cn-skip-head a:visited, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {clip: rect(1px 1px 1px 1px);}
 .cn-show-onfocus:focus, .cn-show-onfocus:active, #cn-skip-head a:focus, #cn-skip-head a:active {width: auto !important; height: auto !important; white-space: nowrap;}
 .cn-show-onhover, a.cn-linkdesc span span {filter: alpha(opacity = 0); zoom: 1;}
 .cn-show-onhover:hover, .cn-show-onhover:focus, .cn-show-onhover:active, a.cn-linkdesc:hover span span, a.cn-linkdesc:focus span span, a.cn-linkdesc:active span span {filter: alpha(opacity = 100); zoom: 1;}
