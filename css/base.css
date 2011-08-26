@@ -7,7 +7,6 @@
  */
 
 /* Element normalization / Normalisation des éléments */
-input, select, button {font-size: 100%;}
 body {margin: 0; padding: 0;}
 a:active, a:focus {cursor: auto;}
 a img {border: none;}

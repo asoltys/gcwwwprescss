@@ -7,7 +7,7 @@
  */
  
 /* Element normalization / Normalisation des éléments */
-textarea {font-size:100%}
+input, select, button, textarea {font-size:100%}
  
 a:hover, a:active, a:focus {color: #C00;}
 .cn-invisible, .cn-show-onfocus, #cn-skip-head a:link, #cn-skip-head a:visited, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {clip: rect(1px 1px 1px 1px);}
