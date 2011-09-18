@@ -17,6 +17,7 @@ table {border-collapse: collapse; border-spacing: 0;}
 a[href]:hover, a[href]:active, a[href]:focus {color: #C00;}
 body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 80%;}
 pre, code, kbd, samp, tt {font-family: "Courier New", Courier, monospace; font-size: 112%;}
+address {font-style: normal;}
 h1, h2, h3, h4, h5, h6 {margin: 1em 0; font-weight: bold;}
 h1 {font-size: 170%;}
 h2 {font-size: 155%;}
