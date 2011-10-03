@@ -99,5 +99,4 @@
 	body {background: #FFF;}
 	abbr, acronym {border: none;}
 	#cn-skip-head, #cn-left-col, #cn-left-col-gap, #cn-right-col, #cn-right-col-gap, #cn-centre-col-gap, a.cn-linkdesc span span  {display: none;}
-	#cn-body-inner-3col #cn-centre-col-inner, #cn-body-inner-2col #cn-centre-col-inner, #cn-body-inner-2col-right #cn-centre-col-inner {margin: 0 !important; padding: 0 !important;}
 }
