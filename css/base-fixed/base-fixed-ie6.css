@@ -1,17 +1,18 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a7 / Couche présentation de CSS v1.3a7
+ * CSS presentation layer v1.3a8 / Couche présentation de CSS v1.3a8
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
  */
- 
+
 /** Screen and print CSS **/
 @media screen,print {
 	/* Element normalization / Normalisation des éléments */
 	input, select, button, textarea {font-size:100%}
 
 	/* Hide non-visual elements / Cacher les éléments non-visuel */
+	a:hover, a:active, a:focus {color: #C00;}
 	.cn-invisible, .cn-show-onfocus, #cn-skip-head a:link, #cn-skip-head a:visited, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {clip: rect(1px 1px 1px 1px);}
 	.cn-show-onfocus:focus, .cn-show-onfocus:active, #cn-skip-head a:focus, #cn-skip-head a:active {width: auto !important; height: auto !important; white-space: nowrap;}
 	.cn-show-onhover, a.cn-linkdesc span span {filter: alpha(opacity = 0); zoom: 1;}
@@ -20,11 +21,14 @@
 
 /** Screen-only CSS **/
 @media screen {
-	a:hover, a:active, a:focus {color: #C00;}
 	#cn-skip-head {float: none; margin-top: -13px;}
 	#cn-skip-head ul {height: 10px; margin-top: -10px;}
 	#cn-skip-head li {padding-bottom: 5px; width: 1%; top: 13px;}
+
 	a.cn-linkdesc span span {top: -9000em;}
+	
+	#cn-centre-col, #cn-left-col, #cn-right-col {overflow-x: hidden;}
+	.cn-overflow-test {display: none;}
 }
 
 /** Print-only CSS **/

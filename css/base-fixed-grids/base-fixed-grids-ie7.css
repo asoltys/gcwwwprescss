@@ -23,6 +23,8 @@
 	#cn-skip-head {float: none;}
 	#cn-skip-head ul {float: left;}
 	a.cn-linkdesc span span {top: -9000em;}
+	
+	#cn-cols {margin-bottom: -20px;}
 }
 
 /** Print-only CSS **/

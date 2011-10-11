@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a7 / Couche présentation de CSS v1.3a7
+ * CSS presentation layer v1.3a8 / Couche présentation de CSS v1.3a8
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -29,7 +29,6 @@
 	#cn-body-inner-1col #cn-foot {margin-top: -0.21em;}
 	#cn-body-inner-3col #cn-cols, #cn-body-inner-2col #cn-cols, #cn-body-inner-2col-right #cn-cols {position: relative;}
 	#cn-cols {float: none; width: auto;}
-	#cn-centre-col, #cn-left-col, #cn-right-col {overflow-x: hidden;}
 	#cn-centre-col-inner {padding-bottom: 1px;}
 	#cn-centre-col-inner, #cn-left-col-inner, #cn-right-col-inner {height: 1%;}
 	#cn-centre-col-gap {width: 100%;}
@@ -45,6 +44,9 @@
 	#cn-foot-inner {position: absolute; padding-bottom: 10px;}
 
 	a.cn-linkdesc span span {top: -9000em;}
+	
+	#cn-centre-col, #cn-left-col, #cn-right-col {overflow-x: hidden;}
+	.cn-overflow-test {display: none;}
 }
 
 /** Print-only CSS **/
