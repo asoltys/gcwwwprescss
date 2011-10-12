@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a8 / Couche présentation de CSS v1.3a8
+ * CSS presentation layer v1.3a9a / Couche présentation de CSS v1.3a9a
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -65,17 +65,17 @@
 	#cn-head-inner, #cn-foot-inner  {width: 78%; padding-left: 1%; padding-right: 1%; margin: auto;}
 	#cn-centre-col, #cn-left-col, #cn-right-col {padding-left: 1.25%; padding-right: 1.25%; z-index: 1; display: inline;}
 	#cn-head, #cn-head-inner, #cn-foot, #cn-foot-inner  {overflow: hidden;}
-	#cn-cols-inner {overflow: visible !important;}
+	#cn-cols-inner {overflow: visible !important;position:relative;}
 	#cn-cols-inner:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
 	#cn-centre-col-gap, #cn-left-col-gap, #cn-right-col-gap {position: absolute; height: 0;}
 	
 	/** Centre column **/
-	#cn-centre-col-inner {position:relative;padding-top:1px;padding-bottom:1px;}
+	#cn-centre-col-inner {padding-top:1px;padding-bottom:1px;}
 	#cn-body-inner-1col #cn-centre-col {width:97.5%; float: left;}
 	#cn-body-inner-2col #cn-centre-col {width:72.5%;float:right;}
 	#cn-body-inner-2col-right #cn-centre-col {width:72.5%;float:left;}
 	#cn-body-inner-3col #cn-centre-col {width:47.5%;float:left;position:relative;left:25%;}
-	#cn-body-inner-2col #cn-centre-col-inner, #cn-body-inner-2col-right #cn-centre-col-inner{width:75%;position:static;}
+	#cn-body-inner-2col #cn-centre-col-inner, #cn-body-inner-2col-right #cn-centre-col-inner{width:75%;}
 	#cn-body-inner-3col #cn-centre-col-inner {width:100%;}
 
 	/** Left column **/
