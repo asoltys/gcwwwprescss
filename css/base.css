@@ -1,16 +1,16 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a9a / Couche présentation de CSS v1.3a9a
+ * CSS presentation layer v1.3a9 / Couche présentation de CSS v1.3a9
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
  */
-
+ 
 /** Screen and print CSS **/
 @media screen,print {
 	/* Element normalization / Normalisation des éléments */
 	body {margin: 0; padding: 0;}
-	a img {border: none;}
+	img, a img {border: none;}
 	q:before, q:after {content: "";}
 	dl, ol, ul {margin-top: 1em; margin-bottom: 1em;}
 	table {border-collapse: collapse; border-spacing: 0;}
@@ -30,6 +30,8 @@
 	.cn-show-onfocus:focus, .cn-show-onfocus:active, #cn-skip-head a:focus, #cn-skip-head a:active {position: static; clip: auto; height: inherit !important; width: inherit !important; overflow: inherit !important; margin: inherit !important;}
 	.cn-show-onhover {opacity: 0;}
 	.cn-show-onhover:hover, .cn-show-onhover:focus, .cn-show-onhover:active {opacity: 1;}
+	
+	#cn-centre-col-gap, #cn-left-col-gap, #cn-right-col-gap {display: none;}
 }
 
 /** Screen-only CSS **/
@@ -38,7 +40,7 @@
 	a:active, a:focus {cursor: auto;}
 	abbr, acronym {cursor: help; border-bottom: 1px dotted #000;}
 	a[href]:hover, a[href]:active, a[href]:focus {color: #C00;}
-	
+
 	/* Skip header / Début de l'en-tête */
 	#cn-skip-head {height: 0; float: left;}
 	#cn-skip-head ul {list-style-type: none; margin-top: -1.8em;}
@@ -48,44 +50,6 @@
 	#cn-skip-head a {padding: 5px; display: inline-block; width: 100%;}
 	#cn-skip-head a, #cn-skip-head a:link, #cn-skip-head a:visited {color: #FFF; background-color: transparent; font-weight: bold;}
 	#cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {background-color: #000; text-decoration: none; color: #FFF;}
-
-	/* Basic grid / Grille simple */
-	#cn-cols {clear: both; float: left; width: 100%;}
-	#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-2col-right, #cn-body-inner-1col {margin: 0px 3%; border: 10px solid #FFF; position: relative;}
-	#cn-centre-col, #cn-head, #cn-foot, #cn-left-col, #cn-right-col {position: relative;}
-	#cn-left-col-gap, #cn-right-col-gap, #cn-centre-col-gap {position: absolute; top: 0; bottom: 0;}
-	#cn-head, #cn-foot, #cn-left-col, #cn-right-col {z-index: 2;}
-	#cn-left-col-gap, #cn-right-col-gap {z-index: 1;}
-	#cn-head, #cn-foot {width: 100%; clear: both;}
-
-	/* Default background colours / Couleurs d'arrère-plan par défaut */
-	#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-2col-right, #cn-body-inner-1col, #cn-head, #cn-foot, #cn-centre-col-inner, #cn-centre-col-gap, #cn-left-col-inner, #cn-left-col-gap, #cn-right-col-inner, #cn-right-col-gap  {background: #FFF;}
-
-	#cn-left-col, #cn-left-col-gap {width: 25%;}
-	#cn-left-col {float: left; margin-right: -25%;}
-	#cn-left-col-gap {left: 0;}
-
-	#cn-right-col, #cn-right-col-gap {width: 25%;}
-	#cn-right-col {float: right;}
-	#cn-right-col-gap {right: 0;}
-
-	#cn-centre-col {width: 100%;}
-	#cn-centre-col, #cn-centre-col-gap {float: left;}
-	#cn-centre-col-inner {padding: 1px 0;}
-
-	#cn-body-inner-3col #cn-centre-col, #cn-body-inner-2col #cn-centre-col, #cn-body-inner-2col-right #cn-centre-col {margin-right: -100%;}
-
-	/* 3 column / 3 colonne */
-	#cn-body-inner-3col #cn-centre-col-inner {margin-left: 25%; margin-right: 25%;}
-	#cn-body-inner-3col #cn-centre-col-gap {left: 25%; right: 25%;}
-
-	/* 2 column / 2 colonne */
-	#cn-body-inner-2col #cn-centre-col-inner {margin-left: 25%;}
-	#cn-body-inner-2col #cn-centre-col-gap {left: 25%; right: 0;}
-
-	/* 2 column with navigation on the right / 2 colonne avec la navigation à droite */
-	#cn-body-inner-2col-right #cn-centre-col-inner {margin-right: 25%;}
-	#cn-body-inner-2col-right #cn-centre-col-gap {left: 0; right: 25%;}
 
 	/* Link description / Description de lien */
 	a.cn-linkdesc {position: relative; z-index: 24;}
@@ -98,5 +62,5 @@
 @media print {
 	body {background: #FFF;}
 	abbr, acronym {border: none;}
-	#cn-skip-head, #cn-left-col, #cn-left-col-gap, #cn-right-col, #cn-right-col-gap, #cn-centre-col-gap, a.cn-linkdesc span span  {display: none;}
+	#cn-skip-head, a.cn-linkdesc span span {display: none;}
 }

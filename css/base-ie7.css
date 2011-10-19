@@ -1,11 +1,11 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a9a / Couche présentation de CSS v1.3a9a
+ * CSS presentation layer v1.3a9 / Couche présentation de CSS v1.3a9
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
  */
-
+  
 /** Screen and print CSS **/
 @media screen,print {
 	/* Element normalization / Normalisation des éléments */
