@@ -26,6 +26,7 @@
 	#cn-skip-head li {padding-bottom: 5px; width: 1%; top: 13px;}
 	a.cn-linkdesc span span {top: -9000em;}
 	#cn-centre-col, #cn-left-col, #cn-right-col {overflow-x: hidden;}
+	.cn-overflow-test {display: none;}
 }
 
 /** Print-only CSS **/
