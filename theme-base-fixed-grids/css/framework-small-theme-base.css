@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a9c / Couche présentation de CSS v1.3a9c
+ * CSS presentation layer v1.3a9d / Couche présentation de CSS v1.3a9d
  * CSS Grid System v1.3a7 / Système de grille CSS v1.3a7
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
@@ -9,24 +9,23 @@
  
 /*** Base theme begins / Début du thème Base ***/
 	/** Body normalization for cross browser **/
-	body{min-width: 768px;}
-	#cn-head, #cn-cols, #cn-foot  {width: 100%;}
-	#cn-head-inner, #cn-cols-inner, #cn-foot-inner  {width: 768px;}
+	body{min-width:768px;}
+	#cn-head, #cn-cols, #cn-foot  {width:100%;}
+	#cn-head-inner, #cn-cols-inner, #cn-foot-inner  {width:768px;}
 
 	/** Centre column **/
 	#cn-body-inner-1col #cn-centre-col {width:768px;}
 	#cn-body-inner-2col #cn-centre-col {width:576px;}
 	#cn-body-inner-2col-right #cn-centre-col {width:576px;}
-	#cn-body-inner-3col #cn-centre-col {width:384px;left:192px;}
+	#cn-body-inner-3col #cn-centre-col {width:384px;right:192px;}
 	#cn-body-inner-2col #cn-centre-col-inner, #cn-body-inner-2col-right #cn-centre-col-inner{width:576px;}
 	#cn-body-inner-3col #cn-centre-col-inner {width:384px;}
 
 	/** Left column **/
 	#cn-left-col {width:192px;}
-	#cn-body-inner-3col #cn-left-col {right: 480px;}
 	
 	/** Right column **/
-	#cn-right-col {width:192px;}
+	#cn-right-col {width:192px;left:384px;}
 /*** Base theme ends / Fin du thème Base ***/
 
 /*** CSS Grid System begins / Début du Système de grille CSS ***/

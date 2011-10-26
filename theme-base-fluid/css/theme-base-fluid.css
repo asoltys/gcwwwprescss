@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a9c / Couche présentation de CSS v1.3a9c
+ * CSS presentation layer v1.3a9d / Couche présentation de CSS v1.3a9d
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -13,51 +13,50 @@
 /** Screen-only CSS **/
 @media screen {
 	/** Body normalization for cross browser **/
-	html {overflow-y: scroll;}
-	body {min-width: 90%; margin: 0; padding: 0;}
+	html {overflow-y:scroll;}
+	body {min-width:90%;margin:0;padding:0;}
 
 	/** Box model - centered **/
-	#cn-head, #cn-cols, #cn-foot  {width: 100%;}
-	#cn-cols-inner  {width: 80%; margin: auto;}
-	#cn-head-inner, #cn-foot-inner  {width: 78%; padding-left: 1%; padding-right: 1%; margin: auto;}
-	#cn-centre-col, #cn-left-col, #cn-right-col {padding-left: 1.25%; padding-right: 1.25%; z-index: 1; display: inline;}
+	#cn-head, #cn-cols, #cn-foot  {width:100%;}
+	#cn-cols-inner  {width:80%;margin:auto;}
+	#cn-head-inner, #cn-foot-inner  {width:78%;padding-left:1%;padding-right:1%;margin:auto;}
+	#cn-centre-col, #cn-left-col, #cn-right-col {padding-left:1.25%;padding-right:1.25%;z-index:1;display:inline;}
 	
 	/** Overflow restrict for background paintability control **/
-	#cn-head, #cn-head-inner, #cn-foot, #cn-foot-inner  {overflow: hidden;}
-	#cn-cols-inner {overflow: visible !important;}
-	#cn-cols-inner:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+	#cn-head, #cn-head-inner, #cn-foot, #cn-foot-inner  {overflow:hidden;}
+	#cn-cols-inner {overflow:visible !important;position:relative;}
+	#cn-cols-inner:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
 	
 	/** Centre column **/
-	#cn-centre-col-inner {position:relative;padding-top:1px;padding-bottom:1px;}
-	#cn-body-inner-1col #cn-centre-col {width:97.5%; float: left;}
+	#cn-centre-col-inner {padding-top:1px;padding-bottom:1px;}
+	#cn-body-inner-1col #cn-centre-col {width:97.5%;float:left;}
 	#cn-body-inner-2col #cn-centre-col {width:72.5%;float:right;}
 	#cn-body-inner-2col-right #cn-centre-col {width:72.5%;float:left;}
-	#cn-body-inner-3col #cn-centre-col {width:47.5%;float:left;position:relative;left:25%;}
-	#cn-body-inner-2col #cn-centre-col-inner, #cn-body-inner-2col-right #cn-centre-col-inner{width:75%;position:static;}
+	#cn-body-inner-3col #cn-centre-col {width:47.5%;float:right;position:relative;right:25%;}
+	#cn-body-inner-2col #cn-centre-col-inner, #cn-body-inner-2col-right #cn-centre-col-inner{width:75%;}
 	#cn-body-inner-3col #cn-centre-col-inner {width:100%;}
 
 	/** Left column **/
 	#cn-left-col {width:22.5%;float:left;}
-	#cn-body-inner-3col #cn-left-col {position: relative; right: 50%;}
 	
 	/** Right column **/
-	#cn-right-col {width:22.5%;float:right;}
+	#cn-right-col {width:22.5%;float:right;position:relative;left:50%;}
 
 	/** Background colours **/
-	#cn-head {background: #FF9;}
-	#cn-head-inner {background: #9FF;}
-	#cn-foot {background: #CCC;}
-	#cn-foot-inner {background: #696;}
-	#cn-cols {background: #262;}
-	#cn-cols-inner {background: #C0C;}
-	#cn-left-col {background: #CC9;}
-	#cn-right-col {background: #99F;}
+	#cn-head {background:#FF9;}
+	#cn-head-inner {background:#9FF;}
+	#cn-foot {background:#CCC;}
+	#cn-foot-inner {background:#696;}
+	#cn-cols {background:#262;}
+	#cn-cols-inner {background:#C0C;}
+	#cn-left-col {background:#CC9;}
+	#cn-right-col {background:#99F;}
 
-	dl dd {margin-left: 0px;}
-	dl dd ul {margin-top: 0;}
+	dl dd {margin-left:0px;}
+	dl dd ul {margin-top:0;}
 }
 
 /** Print-only CSS **/
 @media print {
-	#cn-left-col, #cn-right-col {display: none;}
+	#cn-left-col, #cn-right-col {display:none;}
 }

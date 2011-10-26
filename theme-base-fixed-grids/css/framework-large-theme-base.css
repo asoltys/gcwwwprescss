@@ -1,35 +1,34 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a9c / Couche présentation de CSS v1.3a9c
- * CSS Grid System v1.3a7 / Système de grille CSS v1.3a7
- * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * CSS presentation layer v1.3a9d / Couche prÃ©sentation de CSS v1.3a9d
+ * CSS Grid System v1.3a7 / SystÃ¨me de grille CSS v1.3a7
+ * Web Experience Toolkit (WET) / BoÃ®te Ã  outils de l'expÃ©rience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
- * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ * Conditions rÃ©gissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
  */
  
-/*** Base theme begins / Début du thème Base ***/
+/*** Base theme begins / DÃ©but du thÃ¨me Base ***/
 	/** Body normalization for cross browser **/
-	body{min-width: 1200px;}
-	#cn-head, #cn-cols, #cn-foot  {width: 100%;}
-	#cn-head-inner, #cn-cols-inner, #cn-foot-inner  {width: 1200px; margin: auto;}
+	body{min-width:1200px;}
+	#cn-head, #cn-cols, #cn-foot  {width:100%;}
+	#cn-head-inner, #cn-cols-inner, #cn-foot-inner  {width:1200px;}
 
 	/** Centre column **/
 	#cn-body-inner-1col #cn-centre-col {width:1200px;}
 	#cn-body-inner-2col #cn-centre-col {width:900px;}
 	#cn-body-inner-2col-right #cn-centre-col {width:900px;}
-	#cn-body-inner-3col #cn-centre-col {width:580px;left:300px;}
+	#cn-body-inner-3col #cn-centre-col {width:600px;right:300px;}
 	#cn-body-inner-2col #cn-centre-col-inner, #cn-body-inner-2col-right #cn-centre-col-inner{width:900px;}
-	#cn-body-inner-3col #cn-centre-col-inner {width:580px;}
+	#cn-body-inner-3col #cn-centre-col-inner {width:600px;}
 
 	/** Left column **/
 	#cn-left-col {width:300px;}
-	#cn-body-inner-3col #cn-left-col {right: 580px;}
-	
+		
 	/** Right column **/
-	#cn-right-col {width:300px;}
-/*** Base theme ends / Fin du thème Base ***/
+	#cn-right-col {width:300px;left:600px;}
+/*** Base theme ends / Fin du thÃ¨me Base ***/
 
-/*** CSS Grid System begins / Début du Système de grille CSS ***/
+/*** CSS Grid System begins / DÃ©but du SystÃ¨me de grille CSS ***/
 	/* ---- Dimensions ---- */
 	#cn-body-inner-2col #cn-cols .grid-12 .span-1{width:55px;}
 	.grid-12 .span-1{width:80px;}
@@ -82,4 +81,4 @@
 	.span-2 .calendar-month td,.span-2 .calendar-month th{width:34px;height:32px;padding:2px 3px;}
 	#cn-body-inner-2col #cn-cols .grid-12 .span-4 .calendar-month td,#cn-body-inner-2col #cn-cols .grid-12 .span-4 .calendar-month th{width:34px;height:32px;padding:2px 3px;}
 	.grid-12 .span-3 .calendar-month td,.grid-12 .span-3 .calendar-month th{width:34px;height:32px;padding:2px 3px;}
-/*** CSS Grid System ends / Fin du Système de grille CSS ***/
+/*** CSS Grid System ends / Fin du SystÃ¨me de grille CSS ***/
