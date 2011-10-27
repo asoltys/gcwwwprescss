@@ -38,7 +38,7 @@
 @media screen {
 	/* Element normalization / Normalisation des éléments */
 	a:active, a:focus {cursor: auto;}
-	abbr, acronym {cursor: help; border-bottom: 1px dotted #000;}
+	abbr, acronym {cursor: help;}
 	a[href]:hover, a[href]:active, a[href]:focus {color: #C00;}
 
 	/* Skip header / Début de l'en-tête */
