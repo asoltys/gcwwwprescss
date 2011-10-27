@@ -26,6 +26,7 @@
 	
 	/** Right column **/
 	#cn-right-col {width:192px;left:384px;}
+	#cn-body-inner-2col-right #cn-right-col {left: auto;}
 /*** Base theme ends / Fin du thème Base ***/
 
 /*** CSS Grid System begins / Début du Système de grille CSS ***/

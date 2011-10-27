@@ -41,6 +41,7 @@
 	
 	/** Right column **/
 	#cn-right-col {width:220px;float:right;position:relative;left:480px;}
+	#cn-body-inner-2col-right #cn-right-col {left: auto;}
 
 	/** Background colours **/
 	#cn-head {background:#FF9;}
