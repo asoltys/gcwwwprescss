@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a9f / Couche présentation de CSS v1.3a9f
+ * CSS presentation layer v1.3a9g / Couche présentation de CSS v1.3a9g
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -13,10 +13,10 @@
 /** Screen-only CSS **/
 @media screen {
 	/** Left column **/
-	#cn-left-col {width:22.2%;}
+	#cn-left-col {width:24.5%;}
 	
 	/** Right column **/
-	#cn-right-col {width:22.2%;position:absolute;left:auto;right:0;}
+	#cn-right-col {width:24.5%;}
 }
 
 /** Print-only CSS **/

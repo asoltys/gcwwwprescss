@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a9f / Couche présentation de CSS v1.3a9f
+ * CSS presentation layer v1.3a9g / Couche présentation de CSS v1.3a9g
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -18,9 +18,8 @@
 
 	/** Box model - centered **/
 	#cn-head, #cn-cols, #cn-foot  {width:100%;}
-	#cn-cols-inner  {width:80%;margin:auto;}
-	#cn-head-inner, #cn-foot-inner  {width:78%;padding-left:1%;padding-right:1%;margin:auto;}
-	#cn-centre-col, #cn-left-col, #cn-right-col {padding-left:1.25%;padding-right:1.25%;z-index:1;display:inline;}
+	#cn-head-inner, #cn-cols-inner, #cn-foot-inner  {width:80%;margin:auto;}
+	#cn-centre-col, #cn-left-col, #cn-right-col {z-index:1;display:inline;}
 	
 	/** Overflow restrict for background paintability control **/
 	#cn-head, #cn-head-inner, #cn-foot, #cn-foot-inner  {overflow:hidden;}
@@ -29,18 +28,15 @@
 	
 	/** Centre column **/
 	#cn-centre-col-inner {padding-top:1px;padding-bottom:1px;}
-	#cn-body-inner-1col #cn-centre-col {width:97.5%;float:left;}
-	#cn-body-inner-2col #cn-centre-col {width:72.5%;float:right;}
-	#cn-body-inner-2col-right #cn-centre-col {width:72.5%;float:left;}
-	#cn-body-inner-3col #cn-centre-col {width:47.5%;float:right;position:relative;right:25%;}
-	#cn-body-inner-2col #cn-centre-col-inner, #cn-body-inner-2col-right #cn-centre-col-inner{width:75%;}
-	#cn-body-inner-3col #cn-centre-col-inner {width:100%;}
+	#cn-body-inner-2col #cn-centre-col {width:74.5%;float:right;}
+	#cn-body-inner-2col-right #cn-centre-col {width:74.5%;float:left;}
+	#cn-body-inner-3col #cn-centre-col {width:49%;float:right;position:relative;right:25.5%;}
 
 	/** Left column **/
-	#cn-left-col {width:22.5%;float:left;}
+	#cn-left-col {width:25%;float:left;}
 	
 	/** Right column **/
-	#cn-right-col {width:22.5%;float:right;position:relative;left:50%;}
+	#cn-right-col {width:25%;float:right;position:relative;left:49%;}
 	#cn-body-inner-2col-right #cn-right-col {left: auto;}
 
 	/** Background colours **/
@@ -53,7 +49,10 @@
 	#cn-left-col {background:#CC9;}
 	#cn-right-col {background:#99F;}
 
-	dl dd {margin-left:0px;}
+	#cn-left-col-inner, #cn-centre-col-inner, #cn-right-col-inner {padding-left: 5px; padding-right: 5px;}
+	
+	#cn-head-inner h2, #cn-foot-inner h3 {margin-left: 5px;}
+	dl dd {margin-left:0;}
 	dl dd ul {margin-top:0;}
 }
 
