@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a9g / Couche présentation de CSS v1.3a9g
+ * CSS presentation layer v1.3a9h / Couche présentation de CSS v1.3a9h
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -51,7 +51,7 @@
 
 	#cn-left-col-inner, #cn-centre-col-inner, #cn-right-col-inner {padding-left: 5px; padding-right: 5px;}
 	
-	#cn-head-inner h2, #cn-foot-inner h3 {margin-left: 5px;}
+	#cn-head-base, #cn-foot-base {padding-left: 5px; padding-right: 5px;}
 	dl dd {margin-left:0;}
 	dl dd ul {margin-top:0;}
 }
