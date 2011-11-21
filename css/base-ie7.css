@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3a9h / Couche présentation de CSS v1.3a9h
+ * CSS presentation layer v1.3a9i / Couche présentation de CSS v1.3a9i
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -13,6 +13,7 @@
 
 	/* Hide non-visual elements / Cacher les éléments non-visuel */
 	.cn-invisible, .cn-show-onfocus, #cn-skip-head a:link, #cn-skip-head a:visited, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {clip: rect(1px 1px 1px 1px);}
+	.cn-invisible, .cn-show-onfocus, #cn-foot h2 {position:relative;float:left;margin-bottom:-1px !important;}
 	.cn-show-onfocus:focus, .cn-show-onfocus:active, #cn-skip-head a:focus, #cn-skip-head a:active {width: auto !important; height: auto !important; overflow: visible !important; white-space: nowrap;}
 	.cn-show-onhover, a.cn-linkdesc span span {filter:alpha(opacity=0);}
 	.cn-show-onhover:hover, .cn-show-onhover:focus, .cn-show-onhover:active, a.cn-linkdesc:hover span span, a.cn-linkdesc:focus span span, a.cn-linkdesc:active span span {filter:alpha(opacity=100);}
