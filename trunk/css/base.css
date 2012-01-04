@@ -63,4 +63,5 @@
 	body {background: #FFF;}
 	abbr, acronym {border: none;}
 	#cn-skip-head, a.cn-linkdesc span span {display: none;}
+	#cn-centre-col, #cn-left-col, #cn-right-col {min-height: 0 !important;}
 }

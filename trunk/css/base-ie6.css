@@ -31,4 +31,5 @@
 
 /** Print-only CSS **/
 @media print {
+	#cn-centre-col, #cn-left-col, #cn-right-col {height: auto !important;}
 }
