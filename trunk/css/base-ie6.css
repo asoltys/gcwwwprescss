@@ -9,7 +9,7 @@
 /** Screen and print CSS **/
 @media screen,print {
 	/* Element normalization / Normalisation des éléments */
-	input, select, button, textarea {font-size:100%}
+	input, select, button {font-size:100%}
 
 	/* Hide non-visual elements / Cacher les éléments non-visuel */
 	.cn-invisible, .cn-show-onfocus, #cn-skip-head a:link, #cn-skip-head a:visited, #cn-left-col h2, #cn-right-col h2, #cn-foot h2 {clip: rect(1px 1px 1px 1px);}

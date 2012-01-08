@@ -14,7 +14,9 @@
 	q:before, q:after {content: "";}
 	dl, ol, ul {margin-top: 1em; margin-bottom: 1em;}
 	table {border-collapse: collapse; border-spacing: 0;}
-	body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 80%;}
+	textarea,body {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 80%;}
+	textarea{font-size:100%;}
+	body {font-size:80%;}
 	pre, code, kbd, samp, tt {font-family: "Courier New", Courier, monospace; font-size: 112%;}
 	address {font-style: normal;}
 	h1, h2, h3, h4, h5, h6 {margin: 1em 0; font-weight: bold;}

@@ -9,7 +9,7 @@
 /** Screen and print CSS **/
 @media screen,print {
 	/* Element normalization / Normalisation des éléments */
-	input, select, button, textarea {font-size:100%}
+	input, select, button {font-size:100%}
 }
 
 /** Screen-only CSS **/
