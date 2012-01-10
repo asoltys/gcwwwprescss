@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*!
- * CSS presentation layer v1.3b3 / Couche présentation de CSS v1.3b3
+ * CSS presentation layer v1.3b2 / Couche présentation de CSS v1.3b2
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
  * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
@@ -14,8 +14,8 @@
 	q:before, q:after {content: "";}
 	dl, ol, ul {margin-top: 1em; margin-bottom: 1em;}
 	table {border-collapse: collapse; border-spacing: 0;}
-	textarea,body {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 80%;}
-	textarea{font-size:100%;}
+	textarea,input,body {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 80%;}
+	textarea,input{font-size:100%;}
 	body {font-size:80%;}
 	pre, code, kbd, samp, tt {font-family: "Courier New", Courier, monospace; font-size: 112%;}
 	address {font-style: normal;}
